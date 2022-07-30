@@ -1,7 +1,7 @@
 from datetime import datetime
 import json
 
-file_path = './src/public/data/chart.json'
+file_path = './src/public/chart.json'
 
 now = datetime.now()
 
