@@ -41,6 +41,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react-dom", "npm:18.0.6"],\
             ["@yarnpkg/pnpify", "npm:4.0.0-rc.14"],\
             ["@yarnpkg/sdks", "npm:3.0.0-rc.14"],\
+            ["axios", "npm:0.27.2"],\
             ["eslint", "npm:8.20.0"],\
             ["eslint-config-next", "virtual:009ff0571cc0a298470ec4742f6bf376b863e95b1591bf306c8c086327bdf411b27d7fc601c39bd51644369c1a14a9e24ebe0ff0e281db7558529278b4f939dc#npm:12.2.3"],\
             ["eslint-config-prettier", "virtual:009ff0571cc0a298470ec4742f6bf376b863e95b1591bf306c8c086327bdf411b27d7fc601c39bd51644369c1a14a9e24ebe0ff0e281db7558529278b4f939dc#npm:8.5.0"],\
@@ -1124,11 +1125,31 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["asynckit", [\
+        ["npm:0.4.0", {\
+          "packageLocation": "./.yarn/cache/asynckit-npm-0.4.0-c718858525-7b78c451df.zip/node_modules/asynckit/",\
+          "packageDependencies": [\
+            ["asynckit", "npm:0.4.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["axe-core", [\
         ["npm:4.4.3", {\
           "packageLocation": "./.yarn/cache/axe-core-npm-4.4.3-6a07ed8cf6-c3ea000d9a.zip/node_modules/axe-core/",\
           "packageDependencies": [\
             ["axe-core", "npm:4.4.3"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["axios", [\
+        ["npm:0.27.2", {\
+          "packageLocation": "./.yarn/cache/axios-npm-0.27.2-dbe3a48aea-38cb754046.zip/node_modules/axios/",\
+          "packageDependencies": [\
+            ["axios", "npm:0.27.2"],\
+            ["follow-redirects", "virtual:dbe3a48aea1dd5649e16abaf23d4ae05582d2149e16141955113766a0f84f681baf358c77ddccfc82eb23e4ccc66c6c912df62a9c01f2a83f1842bf86cc297b1#npm:1.15.1"],\
+            ["form-data", "npm:4.0.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -1360,6 +1381,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["combined-stream", [\
+        ["npm:1.0.8", {\
+          "packageLocation": "./.yarn/cache/combined-stream-npm-1.0.8-dc14d4a63a-49fa4aeb49.zip/node_modules/combined-stream/",\
+          "packageDependencies": [\
+            ["combined-stream", "npm:1.0.8"],\
+            ["delayed-stream", "npm:1.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["comment-json", [\
         ["npm:2.4.2", {\
           "packageLocation": "./.yarn/cache/comment-json-npm-2.4.2-ad40caa02b-1e52aa6ddc.zip/node_modules/comment-json/",\
@@ -1565,6 +1596,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["define-properties", "npm:1.1.4"],\
             ["has-property-descriptors", "npm:1.0.0"],\
             ["object-keys", "npm:1.1.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["delayed-stream", [\
+        ["npm:1.0.0", {\
+          "packageLocation": "./.yarn/cache/delayed-stream-npm-1.0.0-c5a4c4cc02-46fe6e83e2.zip/node_modules/delayed-stream/",\
+          "packageDependencies": [\
+            ["delayed-stream", "npm:1.0.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -2231,6 +2271,40 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/flatted-npm-3.2.6-a309e17eb3-33b87aa88d.zip/node_modules/flatted/",\
           "packageDependencies": [\
             ["flatted", "npm:3.2.6"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["follow-redirects", [\
+        ["npm:1.15.1", {\
+          "packageLocation": "./.yarn/cache/follow-redirects-npm-1.15.1-6b191885cd-6aa4e3e3cd.zip/node_modules/follow-redirects/",\
+          "packageDependencies": [\
+            ["follow-redirects", "npm:1.15.1"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:dbe3a48aea1dd5649e16abaf23d4ae05582d2149e16141955113766a0f84f681baf358c77ddccfc82eb23e4ccc66c6c912df62a9c01f2a83f1842bf86cc297b1#npm:1.15.1", {\
+          "packageLocation": "./.yarn/__virtual__/follow-redirects-virtual-659894389a/0/cache/follow-redirects-npm-1.15.1-6b191885cd-6aa4e3e3cd.zip/node_modules/follow-redirects/",\
+          "packageDependencies": [\
+            ["follow-redirects", "virtual:dbe3a48aea1dd5649e16abaf23d4ae05582d2149e16141955113766a0f84f681baf358c77ddccfc82eb23e4ccc66c6c912df62a9c01f2a83f1842bf86cc297b1#npm:1.15.1"],\
+            ["@types/debug", null],\
+            ["debug", null]\
+          ],\
+          "packagePeers": [\
+            "@types/debug",\
+            "debug"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["form-data", [\
+        ["npm:4.0.0", {\
+          "packageLocation": "./.yarn/cache/form-data-npm-4.0.0-916facec2d-01135bf867.zip/node_modules/form-data/",\
+          "packageDependencies": [\
+            ["form-data", "npm:4.0.0"],\
+            ["asynckit", "npm:0.4.0"],\
+            ["combined-stream", "npm:1.0.8"],\
+            ["mime-types", "npm:2.1.35"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -2970,6 +3044,25 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["mime-db", [\
+        ["npm:1.52.0", {\
+          "packageLocation": "./.yarn/cache/mime-db-npm-1.52.0-b5371d6fd2-0d99a03585.zip/node_modules/mime-db/",\
+          "packageDependencies": [\
+            ["mime-db", "npm:1.52.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["mime-types", [\
+        ["npm:2.1.35", {\
+          "packageLocation": "./.yarn/cache/mime-types-npm-2.1.35-dd9ea9f3e2-89a5b7f1de.zip/node_modules/mime-types/",\
+          "packageDependencies": [\
+            ["mime-types", "npm:2.1.35"],\
+            ["mime-db", "npm:1.52.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["mimic-response", [\
         ["npm:1.0.1", {\
           "packageLocation": "./.yarn/cache/mimic-response-npm-1.0.1-f6f85dde84-034c78753b.zip/node_modules/mimic-response/",\
@@ -3048,6 +3141,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react-dom", "npm:18.0.6"],\
             ["@yarnpkg/pnpify", "npm:4.0.0-rc.14"],\
             ["@yarnpkg/sdks", "npm:3.0.0-rc.14"],\
+            ["axios", "npm:0.27.2"],\
             ["eslint", "npm:8.20.0"],\
             ["eslint-config-next", "virtual:009ff0571cc0a298470ec4742f6bf376b863e95b1591bf306c8c086327bdf411b27d7fc601c39bd51644369c1a14a9e24ebe0ff0e281db7558529278b4f939dc#npm:12.2.3"],\
             ["eslint-config-prettier", "virtual:009ff0571cc0a298470ec4742f6bf376b863e95b1591bf306c8c086327bdf411b27d7fc601c39bd51644369c1a14a9e24ebe0ff0e281db7558529278b4f939dc#npm:8.5.0"],\
