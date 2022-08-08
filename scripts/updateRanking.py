@@ -22,7 +22,5 @@ for item in list:
     ranking.append({"brand": brand, "name": name})
 
 
-data = { "data":  ranking }
-
 with open(file_path, 'w') as outfile:
-    json.dump(data, outfile, indent=2, ensure_ascii=False)
+    json.dump(ranking, outfile, indent=2, ensure_ascii=False)
