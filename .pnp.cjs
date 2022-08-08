@@ -34,7 +34,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["@babel/core", "npm:7.18.10"],\
+            ["@babel/preset-react", "virtual:f0c1b93ebfe18f8aa1035d04554929951ffcee4ec58a2275bc1a2df153a194e1bd88a1f53d593745ebbc682257dc15675ea15a03bafc71f8fa5bf4f152cd3162#npm:7.18.6"],\
+            ["@babel/runtime", "npm:7.18.9"],\
             ["@emotion/babel-plugin", "virtual:009ff0571cc0a298470ec4742f6bf376b863e95b1591bf306c8c086327bdf411b27d7fc601c39bd51644369c1a14a9e24ebe0ff0e281db7558529278b4f939dc#npm:11.10.0"],\
+            ["@emotion/babel-preset-css-prop", "virtual:009ff0571cc0a298470ec4742f6bf376b863e95b1591bf306c8c086327bdf411b27d7fc601c39bd51644369c1a14a9e24ebe0ff0e281db7558529278b4f939dc#npm:11.10.0"],\
             ["@emotion/react", "virtual:009ff0571cc0a298470ec4742f6bf376b863e95b1591bf306c8c086327bdf411b27d7fc601c39bd51644369c1a14a9e24ebe0ff0e281db7558529278b4f939dc#npm:11.10.0"],\
             ["@emotion/styled", "virtual:009ff0571cc0a298470ec4742f6bf376b863e95b1591bf306c8c086327bdf411b27d7fc601c39bd51644369c1a14a9e24ebe0ff0e281db7558529278b4f939dc#npm:11.10.0"],\
             ["@mdx-js/react", "virtual:009ff0571cc0a298470ec4742f6bf376b863e95b1591bf306c8c086327bdf411b27d7fc601c39bd51644369c1a14a9e24ebe0ff0e281db7558529278b4f939dc#npm:1.6.22"],\
@@ -63,7 +66,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:009ff0571cc0a298470ec4742f6bf376b863e95b1591bf306c8c086327bdf411b27d7fc601c39bd51644369c1a14a9e24ebe0ff0e281db7558529278b4f939dc#npm:18.2.0"],\
             ["sb", "npm:6.5.9"],\
-            ["typescript", "patch:typescript@npm%3A4.7.4#~builtin<compat/typescript>::version=4.7.4&hash=f456af"]\
+            ["tsconfig-paths-webpack-plugin", "npm:4.0.0"],\
+            ["typescript", "patch:typescript@npm%3A4.7.4#~builtin<compat/typescript>::version=4.7.4&hash=f456af"],\
+            ["webpack-merge", "npm:5.8.0"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -4164,6 +4169,55 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["find-root", "npm:1.1.0"],\
             ["source-map", "npm:0.5.7"],\
             ["stylis", "npm:4.0.13"]\
+          ],\
+          "packagePeers": [\
+            "@babel/core",\
+            "@types/babel__core"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@emotion/babel-plugin-jsx-pragmatic", [\
+        ["npm:0.2.0", {\
+          "packageLocation": "./.yarn/cache/@emotion-babel-plugin-jsx-pragmatic-npm-0.2.0-346b7bc629-fb7a386ff1.zip/node_modules/@emotion/babel-plugin-jsx-pragmatic/",\
+          "packageDependencies": [\
+            ["@emotion/babel-plugin-jsx-pragmatic", "npm:0.2.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:8884947998e7b957c9b746f697b5fa0ab2ad9e30e748ae8e998d6e4b2cb6ac4bf7997ddedcc3a3a33c05b9c18f424de4e830a038890683087fb3b6727e5a7fae#npm:0.2.0", {\
+          "packageLocation": "./.yarn/__virtual__/@emotion-babel-plugin-jsx-pragmatic-virtual-34875c4cc7/0/cache/@emotion-babel-plugin-jsx-pragmatic-npm-0.2.0-346b7bc629-fb7a386ff1.zip/node_modules/@emotion/babel-plugin-jsx-pragmatic/",\
+          "packageDependencies": [\
+            ["@emotion/babel-plugin-jsx-pragmatic", "virtual:8884947998e7b957c9b746f697b5fa0ab2ad9e30e748ae8e998d6e4b2cb6ac4bf7997ddedcc3a3a33c05b9c18f424de4e830a038890683087fb3b6727e5a7fae#npm:0.2.0"],\
+            ["@babel/core", "npm:7.18.10"],\
+            ["@babel/plugin-syntax-jsx", "virtual:516ebe710f8f35c17d040cd8b58a4c0efe96072c1d7bdea24753502fa7486112e6cd6f81fc9c73259ac33e34b91be5daa342ae7abed5fc804fc6513b8eb7e69b#npm:7.18.6"],\
+            ["@types/babel__core", null]\
+          ],\
+          "packagePeers": [\
+            "@babel/core",\
+            "@types/babel__core"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@emotion/babel-preset-css-prop", [\
+        ["npm:11.10.0", {\
+          "packageLocation": "./.yarn/cache/@emotion-babel-preset-css-prop-npm-11.10.0-e0d07b457a-09d91e89ec.zip/node_modules/@emotion/babel-preset-css-prop/",\
+          "packageDependencies": [\
+            ["@emotion/babel-preset-css-prop", "npm:11.10.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:009ff0571cc0a298470ec4742f6bf376b863e95b1591bf306c8c086327bdf411b27d7fc601c39bd51644369c1a14a9e24ebe0ff0e281db7558529278b4f939dc#npm:11.10.0", {\
+          "packageLocation": "./.yarn/__virtual__/@emotion-babel-preset-css-prop-virtual-8884947998/0/cache/@emotion-babel-preset-css-prop-npm-11.10.0-e0d07b457a-09d91e89ec.zip/node_modules/@emotion/babel-preset-css-prop/",\
+          "packageDependencies": [\
+            ["@emotion/babel-preset-css-prop", "virtual:009ff0571cc0a298470ec4742f6bf376b863e95b1591bf306c8c086327bdf411b27d7fc601c39bd51644369c1a14a9e24ebe0ff0e281db7558529278b4f939dc#npm:11.10.0"],\
+            ["@babel/core", "npm:7.18.10"],\
+            ["@babel/plugin-transform-react-jsx", "virtual:327a72c00a71629b58057fb023392299ec3f44d9e2b65823e5fd25768fd67bd65fa2361284995c79a79a3b103a5b729c9681f973625fb3804c524e775564f452#npm:7.18.10"],\
+            ["@babel/runtime", "npm:7.18.9"],\
+            ["@emotion/babel-plugin", "virtual:009ff0571cc0a298470ec4742f6bf376b863e95b1591bf306c8c086327bdf411b27d7fc601c39bd51644369c1a14a9e24ebe0ff0e281db7558529278b4f939dc#npm:11.10.0"],\
+            ["@emotion/babel-plugin-jsx-pragmatic", "virtual:8884947998e7b957c9b746f697b5fa0ab2ad9e30e748ae8e998d6e4b2cb6ac4bf7997ddedcc3a3a33c05b9c18f424de4e830a038890683087fb3b6727e5a7fae#npm:0.2.0"],\
+            ["@types/babel__core", null]\
           ],\
           "packagePeers": [\
             "@babel/core",\
@@ -16453,7 +16507,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["moip", "workspace:."],\
             ["@babel/core", "npm:7.18.10"],\
+            ["@babel/preset-react", "virtual:f0c1b93ebfe18f8aa1035d04554929951ffcee4ec58a2275bc1a2df153a194e1bd88a1f53d593745ebbc682257dc15675ea15a03bafc71f8fa5bf4f152cd3162#npm:7.18.6"],\
+            ["@babel/runtime", "npm:7.18.9"],\
             ["@emotion/babel-plugin", "virtual:009ff0571cc0a298470ec4742f6bf376b863e95b1591bf306c8c086327bdf411b27d7fc601c39bd51644369c1a14a9e24ebe0ff0e281db7558529278b4f939dc#npm:11.10.0"],\
+            ["@emotion/babel-preset-css-prop", "virtual:009ff0571cc0a298470ec4742f6bf376b863e95b1591bf306c8c086327bdf411b27d7fc601c39bd51644369c1a14a9e24ebe0ff0e281db7558529278b4f939dc#npm:11.10.0"],\
             ["@emotion/react", "virtual:009ff0571cc0a298470ec4742f6bf376b863e95b1591bf306c8c086327bdf411b27d7fc601c39bd51644369c1a14a9e24ebe0ff0e281db7558529278b4f939dc#npm:11.10.0"],\
             ["@emotion/styled", "virtual:009ff0571cc0a298470ec4742f6bf376b863e95b1591bf306c8c086327bdf411b27d7fc601c39bd51644369c1a14a9e24ebe0ff0e281db7558529278b4f939dc#npm:11.10.0"],\
             ["@mdx-js/react", "virtual:009ff0571cc0a298470ec4742f6bf376b863e95b1591bf306c8c086327bdf411b27d7fc601c39bd51644369c1a14a9e24ebe0ff0e281db7558529278b4f939dc#npm:1.6.22"],\
@@ -16482,7 +16539,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:009ff0571cc0a298470ec4742f6bf376b863e95b1591bf306c8c086327bdf411b27d7fc601c39bd51644369c1a14a9e24ebe0ff0e281db7558529278b4f939dc#npm:18.2.0"],\
             ["sb", "npm:6.5.9"],\
-            ["typescript", "patch:typescript@npm%3A4.7.4#~builtin<compat/typescript>::version=4.7.4&hash=f456af"]\
+            ["tsconfig-paths-webpack-plugin", "npm:4.0.0"],\
+            ["typescript", "patch:typescript@npm%3A4.7.4#~builtin<compat/typescript>::version=4.7.4&hash=f456af"],\
+            ["webpack-merge", "npm:5.8.0"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -20764,6 +20823,28 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["strip-bom", "npm:3.0.0"]\
           ],\
           "linkType": "HARD"\
+        }],\
+        ["npm:4.0.0", {\
+          "packageLocation": "./.yarn/cache/tsconfig-paths-npm-4.0.0-15297da77a-a8cf746ffe.zip/node_modules/tsconfig-paths/",\
+          "packageDependencies": [\
+            ["tsconfig-paths", "npm:4.0.0"],\
+            ["json5", "npm:2.2.1"],\
+            ["minimist", "npm:1.2.6"],\
+            ["strip-bom", "npm:3.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["tsconfig-paths-webpack-plugin", [\
+        ["npm:4.0.0", {\
+          "packageLocation": "./.yarn/cache/tsconfig-paths-webpack-plugin-npm-4.0.0-399b80e99e-7ff7d63c11.zip/node_modules/tsconfig-paths-webpack-plugin/",\
+          "packageDependencies": [\
+            ["tsconfig-paths-webpack-plugin", "npm:4.0.0"],\
+            ["chalk", "npm:4.1.2"],\
+            ["enhanced-resolve", "npm:5.10.0"],\
+            ["tsconfig-paths", "npm:4.0.0"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["tslib", [\
@@ -21758,6 +21839,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["webpack-merge", [\
+        ["npm:5.8.0", {\
+          "packageLocation": "./.yarn/cache/webpack-merge-npm-5.8.0-e3c95fdc3c-88786ab910.zip/node_modules/webpack-merge/",\
+          "packageDependencies": [\
+            ["webpack-merge", "npm:5.8.0"],\
+            ["clone-deep", "npm:4.0.1"],\
+            ["wildcard", "npm:2.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["webpack-sources", [\
         ["npm:1.4.3", {\
           "packageLocation": "./.yarn/cache/webpack-sources-npm-1.4.3-2b3a9b1de0-37463dad8d.zip/node_modules/webpack-sources/",\
@@ -21852,6 +21944,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["widest-line", "npm:3.1.0"],\
             ["string-width", "npm:4.2.3"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["wildcard", [\
+        ["npm:2.0.0", {\
+          "packageLocation": "./.yarn/cache/wildcard-npm-2.0.0-baedca033a-1f4fe4c03d.zip/node_modules/wildcard/",\
+          "packageDependencies": [\
+            ["wildcard", "npm:2.0.0"]\
           ],\
           "linkType": "HARD"\
         }]\
