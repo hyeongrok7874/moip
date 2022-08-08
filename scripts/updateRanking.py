@@ -13,10 +13,14 @@ ranking = []
 if response.status_code == 200:
     html = response.text
     soup = BeautifulSoup(html, 'html.parser')
-    list = soup.select('#goodsRankList > li > div.li_inner > div.article_info > p.list_info > a')[0: 10]
+    list = soup.select('#goodsRankList > li > div.li_inner > div.article_info')[0: 10]
+
 
 for item in list:
-    ranking.append(item['title'])
+    brand = item.select_one('p.item_title > a').text
+    name = item.select_one('p.list_info > a')['title']
+    ranking.append({"brand": brand, "name": name})
+
 
 data = { "data":  ranking }
 
