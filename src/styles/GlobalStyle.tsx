@@ -10,7 +10,7 @@ const GlobalStyle = () => {
           margin: 0;
           box-sizing: border-box;
           font-family: "Apple SD Gothic Neo", "Noto Sans KR";
-          background: #f2d1d1;
+          background: #ff869e;
           display: flex;
           justify-content: center;
         }
