@@ -19,6 +19,10 @@ const GlobalStyle = () => {
           color: inherit;
           text-decoration: none;
         }
+
+        p {
+          margin: 0;
+        }
       `}
     />
   );
