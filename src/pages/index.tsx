@@ -17,7 +17,7 @@ const Home: NextPage<DataType> = ({ data }) => {
     <S.MainWrapper>
       <Header />
       <S.GoodsWrapper>
-        {data.map((item, index) => (
+        {/* {data.map((item, index) => (
           <Goods
             key={index}
             brand={item.brand}
@@ -25,7 +25,7 @@ const Home: NextPage<DataType> = ({ data }) => {
             img={item.img}
             price={item.price}
           />
-        ))}
+        ))} */}
       </S.GoodsWrapper>
     </S.MainWrapper>
   );
