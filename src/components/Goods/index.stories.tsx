@@ -16,5 +16,5 @@ const Template: ComponentStory<typeof Goods> = (args) => <Goods {...args} />;
 export const Primary = Template.bind({});
 
 Primary.args = {
-  label: "Goods",
+  
 };
