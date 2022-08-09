@@ -1,17 +1,27 @@
 import type { GetStaticProps, NextPage } from "next";
 import axios from "axios";
 import * as S from "styles/Main";
+import Goods from "components/Goods";
 
-interface HelloType {
-  data: { hello: string };
+interface DataType {
+  data: {
+    brand: string;
+    name: string;
+  }[];
 }
 
-const Home: NextPage<HelloType> = ({ data: { hello } }) => {
-  return <S.MainWrapper>{hello}</S.MainWrapper>;
+const Home: NextPage<DataType> = ({ data }) => {
+  return (
+    <S.MainWrapper>
+      {data.map((item, index) => (
+        <Goods key={index} brand={item.brand} name={item.name} />
+      ))}
+    </S.MainWrapper>
+  );
 };
 
 export const getStaticProps: GetStaticProps = async () => {
-  const { data } = await axios.get("https://moip.vercel.app/data/chart.json");
+  const { data } = await axios.get("http://localhost:3000/data/ranking.json");
   return {
     props: { data },
   };
