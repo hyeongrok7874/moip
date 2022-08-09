@@ -19,7 +19,10 @@ function getPackageDir(filepath) {
 }
 
 module.exports = {
-  stories: ["../src/components/**/*.stories.@(ts|tsx|mdx)"],
+  stories: [
+    "../src/components/**/*.stories.@(ts|tsx|mdx)",
+    "../src/stories/**/*.stories.@(ts|tsx|mdx)",
+  ],
   addons: ["@storybook/addon-links", "@storybook/addon-essentials"],
   webpackFinal: async (config) => {
     return merge(config, {
