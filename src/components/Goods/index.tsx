@@ -64,6 +64,7 @@ const Goods: React.FC<GoodsProps> = ({
         height="150"
         css={css`
           border-radius: 100%;
+          background: #ffffff;
         `}
       />
       <Detail>
