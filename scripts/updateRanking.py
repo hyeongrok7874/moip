@@ -31,7 +31,8 @@ for item in list:
     brand = item.select_one(select_brand).text
     name = item.select_one(select_name)['title']
     price = item.select_one(select_price).text.strip()
-    ranking.append({"img": img, "brand": brand, "name": name, "price": price})
+    link = item.select_one(select_name)['href']
+    ranking.append({"img": img, "brand": brand, "name": name, "price": price, "link": link})
 
 
 with open(file_path, 'w') as outfile:
