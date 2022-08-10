@@ -2,7 +2,7 @@ import json
 import requests
 from bs4 import BeautifulSoup
 
-file_path = './public/data/ranking.json'
+file_path = './src/pages/api/ranking.json'
 
 ranking = []
 

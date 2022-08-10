@@ -28,7 +28,7 @@ jobs:
         run: |
           git config --local user.email "khr5k0228@gmail.com"
           git config --local user.name "hyeongrok7874"
-          git add public/data/ranking.json 
+          git add src/pages/api/ranking.json
           git commit -m "Auto update ranking.json"
       - name: Push
         run: |
