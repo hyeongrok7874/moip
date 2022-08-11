@@ -11,14 +11,15 @@ interface GoodsProps {
   brand: string;
   name: string;
   price: string;
+  link: string;
+  rank: number;
 }
 
 interface HelloProps {
   bgColor?: string;
 }
 
-const GoodsBox = styled.div<HelloProps>`
-  display: inline-block;
+const GoodsBox = styled.a<HelloProps>`
   background-color: ${({ bgColor }) => bgColor || "#ffe7bf"};
   border-radius: 100%;
   padding: 20px 0 50px;
@@ -26,14 +27,28 @@ const GoodsBox = styled.div<HelloProps>`
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  :hover {
+    background: #ffdba4;
+    transition: background 0.5s;
+  }
 `;
 
 const Detail = styled.div`
   width: 200px;
 `;
 
-const Brand = styled.p`
-  color: #78dec7;
+const DetailHeader = styled.div`
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+`;
+
+const Rank = styled.span`
+  color: #ff0063;
+`;
+
+const Brand = styled.span`
+  color: #54BAB9;
 `;
 
 const Name = styled.div`
@@ -54,9 +69,11 @@ const Goods: React.FC<GoodsProps> = ({
   brand,
   name,
   price,
+  link,
+  rank,
 }) => {
   return (
-    <GoodsBox bgColor={backgroundColor}>
+    <GoodsBox href={link} target="_blank" bgColor={backgroundColor}>
       <Image
         src={img}
         alt={name}
@@ -68,7 +85,10 @@ const Goods: React.FC<GoodsProps> = ({
         `}
       />
       <Detail>
-        <Brand>{brand}</Brand>
+        <DetailHeader>
+          <Rank>{rank}위</Rank>
+          <Brand>{brand}</Brand>
+        </DetailHeader>
         <Name>{name}</Name>
         <Price>{price}</Price>
       </Detail>

@@ -15,6 +15,8 @@ const Home: NextPage = () => {
             name={item.name}
             img={item.img}
             price={item.price}
+            link={item.link}
+            rank={index + 1}
           />
         ))}
       </S.GoodsWrapper>
