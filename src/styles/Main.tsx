@@ -6,6 +6,9 @@ export const MainWrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  @media (max-width: 700px) {
+    width: 100vw;
+  }
 `;
 
 export const GoodsWrapper = styled.div`
@@ -15,4 +18,10 @@ export const GoodsWrapper = styled.div`
   grid-template-columns: 300px 300px;
   grid-gap: 50px;
   grid-auto-rows: 300px;
+  @media (max-width: 700px) {
+    width: 93%;
+    grid-template-columns: 46% 46%;
+    grid-gap: 7.5vw;
+    grid-auto-rows: 43vw;
+  }
 `;
