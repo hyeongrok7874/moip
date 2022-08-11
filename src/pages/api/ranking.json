@@ -21,11 +21,11 @@
     "link": "https://www.musinsa.com/app/goods/1848166?loc=goods_rank"
   },
   {
-    "img": "https://image.msscdn.net/images/goods_img/20210428/1924274/1924274_7_125.jpg",
-    "brand": "수아레",
-    "name": "린넨 라이크 세미 와이드 밴딩 팬츠 세트",
-    "price": "49,900원",
-    "link": "https://www.musinsa.com/app/goods/1924274?loc=goods_rank"
+    "img": "https://image.msscdn.net/images/goods_img/20210304/1826978/1826978_1_125.jpg",
+    "brand": "아카이브 볼드",
+    "name": "939 LOGO SWEAT PANTS (BLACK)",
+    "price": "55,300원",
+    "link": "https://www.musinsa.com/app/goods/1826978?loc=goods_rank"
   },
   {
     "img": "https://image.msscdn.net/images/goods_img/20180406/750908/750908_6_125.jpg",
@@ -35,6 +35,13 @@
     "link": "https://www.musinsa.com/app/goods/750908?loc=goods_rank"
   },
   {
+    "img": "https://image.msscdn.net/images/goods_img/20210428/1924274/1924274_7_125.jpg",
+    "brand": "수아레",
+    "name": "린넨 라이크 세미 와이드 밴딩 팬츠 세트",
+    "price": "49,900원",
+    "link": "https://www.musinsa.com/app/goods/1924274?loc=goods_rank"
+  },
+  {
     "img": "https://image.msscdn.net/images/goods_img/20210427/1921901/1921901_4_125.jpg",
     "brand": "페플",
     "name": "[패키지][페플] 스테이 얼론 + 보드마스터 그래픽 티셔츠 2PACK ( JDST1315+JDST1358)",
@@ -42,18 +49,11 @@
     "link": "https://www.musinsa.com/app/goods/1921901?loc=goods_rank"
   },
   {
-    "img": "https://image.msscdn.net/images/goods_img/20210407/1885631/1885631_1_125.jpg",
-    "brand": "토피",
-    "name": "SL01 섬머 데님 와이드 팬츠 (RAW INDIGO)",
-    "price": "36,500원",
-    "link": "https://www.musinsa.com/app/goods/1885631?loc=goods_rank"
-  },
-  {
-    "img": "https://image.msscdn.net/images/goods_img/20210304/1826978/1826978_1_125.jpg",
-    "brand": "아카이브 볼드",
-    "name": "939 LOGO SWEAT PANTS (BLACK)",
-    "price": "55,300원",
-    "link": "https://www.musinsa.com/app/goods/1826978?loc=goods_rank"
+    "img": "https://image.msscdn.net/images/goods_img/20210906/2112059/2112059_1_125.jpg",
+    "brand": "가까이 유니언즈",
+    "name": "원턱 와이드 스웨트팬츠 그레이",
+    "price": "33,800원",
+    "link": "https://www.musinsa.com/app/goods/2112059?loc=goods_rank"
   },
   {
     "img": "https://image.msscdn.net/images/goods_img/20200924/1622069/1622069_1_125.jpg",
@@ -63,10 +63,10 @@
     "link": "https://www.musinsa.com/app/goods/1622069?loc=goods_rank"
   },
   {
-    "img": "https://image.msscdn.net/images/goods_img/20180703/810033/810033_2_125.jpg",
-    "brand": "컨버스",
-    "name": "척 70 클래식 블랙 162050C",
-    "price": "89,100원",
-    "link": "https://www.musinsa.com/app/goods/810033?loc=goods_rank"
+    "img": "https://image.msscdn.net/images/goods_img/20210407/1885631/1885631_1_125.jpg",
+    "brand": "토피",
+    "name": "SL01 섬머 데님 와이드 팬츠 (RAW INDIGO)",
+    "price": "36,500원",
+    "link": "https://www.musinsa.com/app/goods/1885631?loc=goods_rank"
   }
 ]
