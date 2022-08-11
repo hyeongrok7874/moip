@@ -11,12 +11,12 @@ const Home: NextPage = () => {
         {ranking.map((item, index) => (
           <Goods
             key={index}
+            link={item.link}
+            rank={index + 1}
             brand={item.brand}
             name={item.name}
             img={item.img}
             price={item.price}
-            link={item.link}
-            rank={index + 1}
           />
         ))}
       </S.GoodsWrapper>

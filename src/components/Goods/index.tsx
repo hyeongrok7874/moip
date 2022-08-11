@@ -4,15 +4,13 @@ import { css } from "@emotion/react";
 import Image from "next/image";
 
 interface GoodsProps {
-  primary?: boolean;
+  link: string;
+  rank: number;
   backgroundColor?: string;
   img: string;
-  size?: "small" | "medium" | "large";
   brand: string;
   name: string;
   price: string;
-  link: string;
-  rank: number;
 }
 
 interface HelloProps {
@@ -48,7 +46,7 @@ const Rank = styled.span`
 `;
 
 const Brand = styled.span`
-  color: #54BAB9;
+  color: #54bab9;
 `;
 
 const Name = styled.div`
@@ -62,15 +60,13 @@ const Price = styled.p`
 `;
 
 const Goods: React.FC<GoodsProps> = ({
-  primary,
+  link,
+  rank,
   backgroundColor,
   img,
-  size,
   brand,
   name,
   price,
-  link,
-  rank,
 }) => {
   return (
     <GoodsBox href={link} target="_blank" bgColor={backgroundColor}>
