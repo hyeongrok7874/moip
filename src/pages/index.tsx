@@ -9,15 +9,15 @@ const Home: NextPage = () => {
       <Header />
       <S.GoodsWrapper>
         {ranking.map((item, index) => (
-          // <Goods
-          //   key={index}
-          //   brand={item.brand}
-          //   name={item.name}
-          //   img={item.img}
-          //   price={item.price}
-          //   link={item.link}
-          //   rank={index + 1}
-          // />
+          <Goods
+            key={index}
+            brand={item.brand}
+            name={item.name}
+            img={item.img}
+            price={item.price}
+            link={item.link}
+            rank={index + 1}
+          />
         ))}
       </S.GoodsWrapper>
     </S.MainWrapper>
