@@ -28,20 +28,6 @@
     "link": "https://www.musinsa.com/app/goods/1848166?loc=goods_rank"
   },
   {
-    "img": "https://image.msscdn.net/images/goods_img/20210906/2112059/2112059_1_125.jpg",
-    "brand": "가까이 유니언즈",
-    "name": "원턱 와이드 스웨트팬츠 그레이",
-    "price": "33,800원",
-    "link": "https://www.musinsa.com/app/goods/2112059?loc=goods_rank"
-  },
-  {
-    "img": "https://image.msscdn.net/images/goods_img/20210427/1921901/1921901_4_125.jpg",
-    "brand": "페플",
-    "name": "[패키지][페플] 스테이 얼론 + 보드마스터 그래픽 티셔츠 2PACK ( JDST1315+JDST1358)",
-    "price": "35,800원",
-    "link": "https://www.musinsa.com/app/goods/1921901?loc=goods_rank"
-  },
-  {
     "img": "https://image.msscdn.net/images/goods_img/20210428/1924274/1924274_7_125.jpg",
     "brand": "수아레",
     "name": "린넨 라이크 세미 와이드 밴딩 팬츠 세트",
@@ -49,11 +35,11 @@
     "link": "https://www.musinsa.com/app/goods/1924274?loc=goods_rank"
   },
   {
-    "img": "https://image.msscdn.net/images/goods_img/20210831/2099882/2099882_1_125.jpg",
-    "brand": "트래블",
-    "name": "미시간 울버린 피그먼트 후드티 블랙 차콜",
-    "price": "54,900원",
-    "link": "https://www.musinsa.com/app/goods/2099882?loc=goods_rank"
+    "img": "https://image.msscdn.net/images/goods_img/20210906/2112059/2112059_1_125.jpg",
+    "brand": "가까이 유니언즈",
+    "name": "원턱 와이드 스웨트팬츠 그레이",
+    "price": "33,800원",
+    "link": "https://www.musinsa.com/app/goods/2112059?loc=goods_rank"
   },
   {
     "img": "https://image.msscdn.net/images/goods_img/20210304/1826978/1826978_1_125.jpg",
@@ -63,10 +49,24 @@
     "link": "https://www.musinsa.com/app/goods/1826978?loc=goods_rank"
   },
   {
-    "img": "https://image.msscdn.net/images/goods_img/20180703/810033/810033_2_125.jpg",
-    "brand": "컨버스",
-    "name": "척 70 클래식 블랙 162050C",
-    "price": "89,100원",
-    "link": "https://www.musinsa.com/app/goods/810033?loc=goods_rank"
+    "img": "https://image.msscdn.net/images/goods_img/20220809/2706340/2706340_1_125.jpg",
+    "brand": "아디다스",
+    "name": "레트로피 서울킥 - 화이트:블루:레드 / FZ5612",
+    "price": "129,000원",
+    "link": "https://www.musinsa.com/app/goods/2706340?loc=goods_rank"
+  },
+  {
+    "img": "https://image.msscdn.net/images/goods_img/20210316/1846930/1846930_6_125.jpg",
+    "brand": "이벳필드",
+    "name": "EBFD 베츠 반팔 티셔츠 블루",
+    "price": "23,400원",
+    "link": "https://www.musinsa.com/app/goods/1846930?loc=goods_rank"
+  },
+  {
+    "img": "https://image.msscdn.net/images/goods_img/20210427/1921901/1921901_4_125.jpg",
+    "brand": "페플",
+    "name": "[패키지][페플] 스테이 얼론 + 보드마스터 그래픽 티셔츠 2PACK ( JDST1315+JDST1358)",
+    "price": "35,800원",
+    "link": "https://www.musinsa.com/app/goods/1921901?loc=goods_rank"
   }
 ]
