@@ -29,10 +29,16 @@ const GoodsBox = styled.a<HelloProps>`
     background: #ffdba4;
     transition: background 0.5s;
   }
+  @media (max-width: 400px) {
+    padding-bottom: 30px;
+  }
 `;
 
 const Detail = styled.div`
   width: 200px;
+  @media (max-width: 550px) {
+    width: 150px;
+  }
 `;
 
 const DetailHeader = styled.div`

@@ -19,9 +19,17 @@ export const GoodsWrapper = styled.div`
   grid-gap: 50px;
   grid-auto-rows: 300px;
   @media (max-width: 700px) {
-    width: 93%;
-    grid-template-columns: 46% 46%;
+    width: 50%;
+    grid-template-columns: 100%;
     grid-gap: 7.5vw;
-    grid-auto-rows: 43vw;
+    grid-auto-rows: 50vw;
+  }
+  @media (max-width: 550px) {
+    width: 70%;
+    grid-auto-rows: 70vw;
+  }
+  @media (max-width: 400px) {
+    width: 80%;
+    grid-auto-rows: 80vw;
   }
 `;
