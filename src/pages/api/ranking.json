@@ -7,39 +7,11 @@
     "link": "https://www.musinsa.com/app/goods/2680391?loc=goods_rank"
   },
   {
-    "img": "https://image.msscdn.net/images/goods_img/20200903/1582356/1582356_1_125.jpg",
-    "brand": "소버먼트",
-    "name": "980g pigment mtm-charcoal-",
-    "price": "47,600원",
-    "link": "https://www.musinsa.com/app/goods/1582356?loc=goods_rank"
-  },
-  {
-    "img": "https://image.msscdn.net/images/goods_img/20220110/2299111/2299111_1_125.jpg",
-    "brand": "메종 마르지엘라",
-    "name": "남성 레플리카 스니커즈 - 화이트/ S57WS0236P1895101",
-    "price": "389,000원",
-    "link": "https://www.musinsa.com/app/goods/2299111?loc=goods_rank"
-  },
-  {
     "img": "https://image.msscdn.net/images/goods_img/20211124/2246146/2246146_3_125.jpg",
     "brand": "아디다스",
     "name": "레이싱 1 - 그레이 / GX8633",
     "price": "39,900원",
     "link": "https://www.musinsa.com/app/goods/2246146?loc=goods_rank"
-  },
-  {
-    "img": "https://image.msscdn.net/images/goods_img/20210209/1789507/1789507_1_125.jpg",
-    "brand": "하 아카이브",
-    "name": "아크 블랙 메신저백",
-    "price": "69,900원",
-    "link": "https://www.musinsa.com/app/goods/1789507?loc=goods_rank"
-  },
-  {
-    "img": "https://image.msscdn.net/images/goods_img/20210728/2043036/2043036_6_125.jpg",
-    "brand": "코드그라피",
-    "name": "[SET] (맨투맨 OR 후드 선택) CGP 아치 로고 트레이닝 셋업_멜란지그레이",
-    "price": "69,900원",
-    "link": "https://www.musinsa.com/app/goods/2043036?loc=goods_rank"
   },
   {
     "img": "https://image.msscdn.net/images/goods_img/20180703/810034/810034_2_125.jpg",
@@ -49,6 +21,34 @@
     "link": "https://www.musinsa.com/app/goods/810034?loc=goods_rank"
   },
   {
+    "img": "https://image.msscdn.net/images/goods_img/20210209/1789507/1789507_1_125.jpg",
+    "brand": "하 아카이브",
+    "name": "아크 블랙 메신저백",
+    "price": "69,900원",
+    "link": "https://www.musinsa.com/app/goods/1789507?loc=goods_rank"
+  },
+  {
+    "img": "https://image.msscdn.net/images/goods_img/20200903/1582356/1582356_1_125.jpg",
+    "brand": "소버먼트",
+    "name": "980g pigment mtm-charcoal-",
+    "price": "47,600원",
+    "link": "https://www.musinsa.com/app/goods/1582356?loc=goods_rank"
+  },
+  {
+    "img": "https://image.msscdn.net/images/goods_img/20220111/2300865/2300865_1_125.jpg",
+    "brand": "반스",
+    "name": "스타일 36 데콘 SF - (스웨이드/캔버스) 마쉬멜로우 / VN0A3MVL2261",
+    "price": "39,900원",
+    "link": "https://www.musinsa.com/app/goods/2300865?loc=goods_rank"
+  },
+  {
+    "img": "https://image.msscdn.net/images/goods_img/20220811/2712632/2712632_1_125.jpg",
+    "brand": "토마스모어",
+    "name": "TC3-JP01 탱커블루종-블랙",
+    "price": "96,300원",
+    "link": "https://www.musinsa.com/app/goods/2712632?loc=goods_rank"
+  },
+  {
     "img": "https://image.msscdn.net/images/goods_img/20180406/750908/750908_6_125.jpg",
     "brand": "후러브스아트",
     "name": "유니섹스 세미 와이드 밴딩 슬랙스",
@@ -56,17 +56,17 @@
     "link": "https://www.musinsa.com/app/goods/750908?loc=goods_rank"
   },
   {
-    "img": "https://image.msscdn.net/images/goods_img/20210316/1848166/1848166_11_125.jpg",
-    "brand": "커버낫",
-    "name": "에센셜 쿨 코튼 2-PACK 티셔츠",
-    "price": "39,200원",
-    "link": "https://www.musinsa.com/app/goods/1848166?loc=goods_rank"
+    "img": "https://image.msscdn.net/images/goods_img/20220425/2512887/2512887_1_125.jpg",
+    "brand": "클린",
+    "name": "웜 코튼 EDP 60ML",
+    "price": "49,900원",
+    "link": "https://www.musinsa.com/app/goods/2512887?loc=goods_rank"
   },
   {
-    "img": "https://image.msscdn.net/images/goods_img/20210906/2112059/2112059_1_125.jpg",
-    "brand": "가까이 유니언즈",
-    "name": "원턱 와이드 스웨트팬츠 그레이",
-    "price": "36,400원",
-    "link": "https://www.musinsa.com/app/goods/2112059?loc=goods_rank"
+    "img": "https://image.msscdn.net/images/goods_img/20210728/2043036/2043036_6_125.jpg",
+    "brand": "코드그라피",
+    "name": "[SET] (맨투맨 OR 후드 선택) CGP 아치 로고 트레이닝 셋업_멜란지그레이",
+    "price": "69,900원",
+    "link": "https://www.musinsa.com/app/goods/2043036?loc=goods_rank"
   }
 ]
