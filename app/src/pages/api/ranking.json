@@ -1,38 +1,10 @@
 [
   {
-    "img": "https://image.msscdn.net/images/goods_img/20220805/2701946/2701946_2_125.jpg",
-    "brand": "카파",
-    "name": "KAPPA X OAM FACTORY 윈드브레이커 다크그레이",
-    "price": "199,000원",
-    "link": "https://www.musinsa.com/app/goods/2701946?loc=goods_rank"
-  },
-  {
-    "img": "https://image.msscdn.net/images/goods_img/20220805/2701940/2701940_1_125.jpg",
-    "brand": "카파",
-    "name": "KAPPA X OAM FACTORY 트랙 팬츠 다크그레이",
-    "price": "139,000원",
-    "link": "https://www.musinsa.com/app/goods/2701940?loc=goods_rank"
-  },
-  {
     "img": "https://image.msscdn.net/images/goods_img/20220725/2680391/2680391_3_125.jpg",
     "brand": "코드그라피",
     "name": "[SET] (맨투맨 OR 후드 선택) CGP 오리진 호랑이 로고 트레이닝 셋업_멜란지그레이",
     "price": "69,900원",
     "link": "https://www.musinsa.com/app/goods/2680391?loc=goods_rank"
-  },
-  {
-    "img": "https://image.msscdn.net/images/goods_img/20200603/1473136/1473136_4_125.jpg",
-    "brand": "아디다스",
-    "name": "오즈위고 - 트리플블랙 / EE6999",
-    "price": "90,000원",
-    "link": "https://www.musinsa.com/app/goods/1473136?loc=goods_rank"
-  },
-  {
-    "img": "https://image.msscdn.net/images/goods_img/20220805/2701947/2701947_1_125.jpg",
-    "brand": "카파",
-    "name": "KAPPA X OAM FACTORY 윈드브레이커 블랙",
-    "price": "199,000원",
-    "link": "https://www.musinsa.com/app/goods/2701947?loc=goods_rank"
   },
   {
     "img": "https://image.msscdn.net/images/goods_img/20180703/810034/810034_2_125.jpg",
@@ -49,13 +21,6 @@
     "link": "https://www.musinsa.com/app/goods/1789507?loc=goods_rank"
   },
   {
-    "img": "https://image.msscdn.net/images/goods_img/20211220/2272830/2272830_2_125.jpg",
-    "brand": "스파오",
-    "name": "오버핏 옥스포드 셔츠_SPYWC49C03",
-    "price": "35,910원",
-    "link": "https://www.musinsa.com/app/goods/2272830?loc=goods_rank"
-  },
-  {
     "img": "https://image.msscdn.net/images/goods_img/20180406/750908/750908_6_125.jpg",
     "brand": "후러브스아트",
     "name": "유니섹스 세미 와이드 밴딩 슬랙스",
@@ -68,5 +33,40 @@
     "name": "원턱 와이드 스웨트팬츠 그레이",
     "price": "36,400원",
     "link": "https://www.musinsa.com/app/goods/2112059?loc=goods_rank"
+  },
+  {
+    "img": "https://image.msscdn.net/images/goods_img/20210728/2043036/2043036_6_125.jpg",
+    "brand": "코드그라피",
+    "name": "[SET] (맨투맨 OR 후드 선택) CGP 아치 로고 트레이닝 셋업_멜란지그레이",
+    "price": "69,900원",
+    "link": "https://www.musinsa.com/app/goods/2043036?loc=goods_rank"
+  },
+  {
+    "img": "https://image.msscdn.net/images/goods_img/20160224/311052/311052_3_125.jpg",
+    "brand": "컨버스",
+    "name": "척테일러 올스타 블랙 옥스 M9166C",
+    "price": "53,100원",
+    "link": "https://www.musinsa.com/app/goods/311052?loc=goods_rank"
+  },
+  {
+    "img": "https://image.msscdn.net/images/goods_img/20220111/2300865/2300865_1_125.jpg",
+    "brand": "반스",
+    "name": "스타일 36 데콘 SF - (스웨이드/캔버스) 마쉬멜로우 / VN0A3MVL2261",
+    "price": "39,900원",
+    "link": "https://www.musinsa.com/app/goods/2300865?loc=goods_rank"
+  },
+  {
+    "img": "https://image.msscdn.net/images/goods_img/20200818/1551840/1551840_1_125.jpg",
+    "brand": "제로",
+    "name": "Deep One Tuck Sweat Pants [Grey]",
+    "price": "35,100원",
+    "link": "https://www.musinsa.com/app/goods/1551840?loc=goods_rank"
+  },
+  {
+    "img": "https://image.msscdn.net/images/goods_img/20180703/810033/810033_2_125.jpg",
+    "brand": "컨버스",
+    "name": "척 70 클래식 블랙 162050C",
+    "price": "89,100원",
+    "link": "https://www.musinsa.com/app/goods/810033?loc=goods_rank"
   }
 ]
