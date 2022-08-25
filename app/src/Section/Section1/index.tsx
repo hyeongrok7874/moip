@@ -1,16 +1,29 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import * as S from "./style";
 import { Pointer } from "Assets/svg";
 
 const Section1 = () => {
+  const [width, setWidth] = useState<number>(0);
+
+  useEffect(() => {
+    setWidth(window.innerWidth);
+    window.onresize = () => {
+      setWidth(window.innerWidth);
+    };
+  }, []);
+
+  const scrollToSection2 = () => {
+    window.scrollTo({ left: 0, top: width * 0.60, behavior: "smooth" });
+  };
+
   return (
     <S.Section1>
       <S.TitleBox>
         <S.TitleTextBox>
-          <S.TitleText>오늘은</S.TitleText>
+          <S.TitleText>오늘</S.TitleText>
           <S.TitleHighlight>뭐 입지?</S.TitleHighlight>
         </S.TitleTextBox>
-        <S.MoveToMainBox href="https://www.musinsa.com">
+        <S.MoveToMainBox onClick={scrollToSection2}>
           <S.MoveToMainText>
             무신사 <S.MoveToMainHighlight>TOP10</S.MoveToMainHighlight> 보러가기
           </S.MoveToMainText>
