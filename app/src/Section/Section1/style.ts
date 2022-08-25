@@ -42,6 +42,7 @@ export const MoveToMainBox = styled.a`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  cursor: pointer;
 `;
 
 export const MoveToMainText = styled.span`
