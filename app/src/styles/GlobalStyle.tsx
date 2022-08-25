@@ -9,10 +9,13 @@ const GlobalStyle = () => {
           padding: 0;
           margin: 0;
           box-sizing: border-box;
-          font-family: "Apple SD Gothic Neo", "Noto Sans KR";
-          background: #ff869e;
-          display: flex;
-          justify-content: center;
+          font-family: "Pretendard", "Apple SD Gothic Neo", "Noto Sans KR";
+        }
+
+        * {
+          padding: 0;
+          margin: 0;
+          box-sizing: border-box;
         }
 
         a {
