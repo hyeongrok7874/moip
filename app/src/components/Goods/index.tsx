@@ -1,100 +1,33 @@
 import React from "react";
-import styled from "@emotion/styled";
-import { css } from "@emotion/react";
+import * as S from "./style";
+import { Rank } from "types/goods";
 import Image from "next/image";
 
-interface GoodsProps {
-  link: string;
+interface PropsType {
   rank: number;
-  backgroundColor?: string;
-  img: string;
-  brand: string;
-  name: string;
-  price: string;
+  data: Rank;
 }
 
-interface HelloProps {
-  bgColor?: string;
-}
-
-const GoodsBox = styled.a<HelloProps>`
-  background-color: ${({ bgColor }) => bgColor || "#ffe7bf"};
-  border-radius: 100%;
-  padding: 20px 0 50px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  :hover {
-    background: #ffdba4;
-    transition: background 0.5s;
-  }
-  @media (max-width: 400px) {
-    padding-bottom: 30px;
-  }
-`;
-
-const Detail = styled.div`
-  width: 200px;
-  @media (max-width: 550px) {
-    width: 150px;
-  }
-`;
-
-const DetailHeader = styled.div`
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-`;
-
-const Rank = styled.span`
-  color: #ff0063;
-`;
-
-const Brand = styled.span`
-  color: #54bab9;
-`;
-
-const Name = styled.div`
-  color: #080808;
-  overflow-x: hidden;
-  white-space: nowrap;
-`;
-
-const Price = styled.p`
-  text-align: center;
-`;
-
-const Goods: React.FC<GoodsProps> = ({
-  link,
-  rank,
-  backgroundColor,
-  img,
-  brand,
-  name,
-  price,
-}) => {
+const Goods: React.FC<PropsType> = ({ rank, data }) => {
   return (
-    <GoodsBox href={link} target="_blank" bgColor={backgroundColor}>
-      <Image
-        src={img}
-        alt={name}
-        width="150"
-        height="150"
-        css={css`
-          border-radius: 100%;
-          background: #ffffff;
-        `}
-      />
-      <Detail>
-        <DetailHeader>
-          <Rank>{rank}위</Rank>
-          <Brand>{brand}</Brand>
-        </DetailHeader>
-        <Name>{name}</Name>
-        <Price>{price}</Price>
-      </Detail>
-    </GoodsBox>
+    <S.Goods href={data.link}>
+      <S.GoodsContent>
+        <S.Ranking>{rank}위</S.Ranking>
+        <S.ImageFrame>
+          <Image
+            src={data.img}
+            width="100%"
+            layout="fill"
+            objectFit="contain"
+            alt="goods"
+          />
+        </S.ImageFrame>
+        <S.Brand>{data.brand}</S.Brand>
+        <S.Name>{data.name}</S.Name>
+        <S.Price>{data.price}</S.Price>
+      </S.GoodsContent>
+      <S.GoToBuy>구매하러 가기</S.GoToBuy>
+    </S.Goods>
   );
 };
 
