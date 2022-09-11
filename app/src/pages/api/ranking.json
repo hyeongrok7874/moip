@@ -1,12 +1,5 @@
 [
   {
-    "img": "https://image.msscdn.net/images/goods_img/20200123/1280367/1280367_4_125.jpg",
-    "brand": "론트",
-    "name": "041 Safari Black",
-    "price": "151,900원",
-    "link": "https://www.musinsa.com/app/goods/1280367?loc=goods_rank"
-  },
-  {
     "img": "https://image.msscdn.net/images/goods_img/20210204/1778404/1778404_1_125.jpg",
     "brand": "토피",
     "name": "2WAY 스웻 후드 집업 (MELANGE GREY)",
@@ -21,18 +14,25 @@
     "link": "https://www.musinsa.com/app/goods/2326935?loc=goods_rank"
   },
   {
-    "img": "https://image.msscdn.net/images/goods_img/20210831/2099882/2099882_1_125.jpg",
-    "brand": "트래블",
-    "name": "미시간 울버린 피그먼트 후드티 블랙 차콜",
-    "price": "36,900원",
-    "link": "https://www.musinsa.com/app/goods/2099882?loc=goods_rank"
-  },
-  {
     "img": "https://image.msscdn.net/images/goods_img/20210906/2112059/2112059_1_125.jpg",
     "brand": "가까이 유니언즈",
     "name": "원턱 와이드 스웨트팬츠 그레이",
     "price": "36,400원",
     "link": "https://www.musinsa.com/app/goods/2112059?loc=goods_rank"
+  },
+  {
+    "img": "https://image.msscdn.net/images/goods_img/20180703/810034/810034_2_125.jpg",
+    "brand": "컨버스",
+    "name": "척 70 클래식  블랙 162058C",
+    "price": "95,000원",
+    "link": "https://www.musinsa.com/app/goods/810034?loc=goods_rank"
+  },
+  {
+    "img": "https://image.msscdn.net/images/goods_img/20210831/2099882/2099882_1_125.jpg",
+    "brand": "트래블",
+    "name": "미시간 울버린 피그먼트 후드티 블랙 차콜",
+    "price": "36,900원",
+    "link": "https://www.musinsa.com/app/goods/2099882?loc=goods_rank"
   },
   {
     "img": "https://image.msscdn.net/images/goods_img/20200818/1551840/1551840_1_125.jpg",
@@ -42,13 +42,6 @@
     "link": "https://www.musinsa.com/app/goods/1551840?loc=goods_rank"
   },
   {
-    "img": "https://image.msscdn.net/images/goods_img/20180703/810034/810034_2_125.jpg",
-    "brand": "컨버스",
-    "name": "척 70 클래식  블랙 162058C",
-    "price": "85,500원",
-    "link": "https://www.musinsa.com/app/goods/810034?loc=goods_rank"
-  },
-  {
     "img": "https://image.msscdn.net/images/goods_img/20180406/750908/750908_6_125.jpg",
     "brand": "후러브스아트",
     "name": "유니섹스 세미 와이드 밴딩 슬랙스",
@@ -56,11 +49,11 @@
     "link": "https://www.musinsa.com/app/goods/750908?loc=goods_rank"
   },
   {
-    "img": "https://image.msscdn.net/images/goods_img/20200129/1282612/1282612_2_125.jpg",
-    "brand": "론트",
-    "name": "077 Black Tote Bag (토트백)",
-    "price": "151,900원",
-    "link": "https://www.musinsa.com/app/goods/1282612?loc=goods_rank"
+    "img": "https://image.msscdn.net/images/goods_img/20220810/2709031/2709031_4_125.jpg",
+    "brand": "굿라이프웍스",
+    "name": "이지 와이드 데님 팬츠 딥블루인디고",
+    "price": "29,800원",
+    "link": "https://www.musinsa.com/app/goods/2709031?loc=goods_rank"
   },
   {
     "img": "https://image.msscdn.net/images/goods_img/20210722/2038497/2038497_4_125.jpg",
@@ -68,5 +61,12 @@
     "name": "헤비 코튼 오버 럭비 맨투맨 _Midnight Blue",
     "price": "32,000원",
     "link": "https://www.musinsa.com/app/goods/2038497?loc=goods_rank"
+  },
+  {
+    "img": "https://image.msscdn.net/images/goods_img/20180703/810033/810033_2_125.jpg",
+    "brand": "컨버스",
+    "name": "척 70 클래식 블랙 162050C",
+    "price": "99,000원",
+    "link": "https://www.musinsa.com/app/goods/810033?loc=goods_rank"
   }
 ]
