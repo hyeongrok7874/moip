@@ -15,7 +15,7 @@ export const GoToBuy = styled.div`
   display: none;
 `;
 
-export const GoodsContent = styled.a`
+export const GoodsContent = styled.div`
   width: 100%;
   height: 100%;
   background: #ffffff;
