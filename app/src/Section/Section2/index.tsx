@@ -36,6 +36,7 @@ const Section2: React.FC<RankingType> = ({ ranking }) => {
           left: 0;
         `}
       />
+      <S.Point />
       <S.WidthDecorationLine
         css={css`
           width: 12%;
@@ -54,6 +55,62 @@ const Section2: React.FC<RankingType> = ({ ranking }) => {
           width: 16%;
           right: 0;
           bottom: 80px;
+        `}
+      />
+      <S.HeightDecorationLine
+        css={css`
+          height: 1300px;
+          left: 9%;
+          top: 50px;
+        `}
+      />
+      <S.HeightDecorationLine
+        css={css`
+          height: 50px;
+          left: 19%;
+          top: 0;
+        `}
+      />
+      <S.HeightDecorationLine
+        css={css`
+          height: 200px;
+          left: 40%;
+          top: 0;
+        `}
+      />
+      <S.HeightDecorationLine
+        css={css`
+          height: 200px;
+          right: 40%;
+          top: 0;
+        `}
+      />
+      <S.HeightDecorationLine
+        css={css`
+          height: 200px;
+          left: 40%;
+          bottom: 0;
+        `}
+      />
+      <S.HeightDecorationLine
+        css={css`
+          height: 200px;
+          right: 40%;
+          bottom: 0;
+        `}
+      />
+      <S.HeightDecorationLine
+        css={css`
+          height: 127px;
+          left: 23%;
+          top: 0;
+        `}
+      />
+      <S.HeightDecorationLine
+        css={css`
+          height: 1350px;
+          left: 94%;
+          top: 0;
         `}
       />
     </S.Section2>
