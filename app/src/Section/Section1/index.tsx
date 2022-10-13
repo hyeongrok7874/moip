@@ -13,25 +13,32 @@ const Section1 = () => {
   }, []);
 
   const scrollToSection2 = () => {
-    window.scrollTo({ left: 0, top: width * 0.60, behavior: "smooth" });
+    window.scrollTo({ left: 0, top: width * 0.6, behavior: "smooth" });
   };
 
   return (
     <S.Section1>
       <S.TitleBox>
-        <S.TitleTextBox>
-          <S.TitleText>오늘</S.TitleText>
-          <S.TitleHighlight>뭐 입지?</S.TitleHighlight>
-        </S.TitleTextBox>
-        <S.MoveToMainBox onClick={scrollToSection2}>
-          <S.MoveToMainText>
-            무신사 <S.MoveToMainHighlight>TOP10</S.MoveToMainHighlight> 보러가기
-          </S.MoveToMainText>
-          <Pointer />
-        </S.MoveToMainBox>
+        <S.TitleContentWrap>
+          <S.TitleTextBox>
+            <S.TitleText>오늘</S.TitleText>
+            <S.TitleHighlight>뭐 입지?</S.TitleHighlight>
+          </S.TitleTextBox>
+          <S.MoveToMainBox onClick={scrollToSection2}>
+            <S.MoveToMainText>
+              무신사 <S.MoveToMainHighlight>TOP10</S.MoveToMainHighlight>{" "}
+              보러가기
+            </S.MoveToMainText>
+            <Pointer />
+          </S.MoveToMainBox>
+        </S.TitleContentWrap>
+        <S.DecorationBox>
+          <S.DecorationLine />
+          <S.DecorationPoint />
+        </S.DecorationBox>
       </S.TitleBox>
-      <S.DecorationLine />
-      <S.DecorationPoint />
+      {/* <S.DecorationLine /> */}
+      {/* <S.DecorationPoint /> */}
       <S.DecorationBlackLine />
       <S.DecorationText>TOP10_MUSINSA</S.DecorationText>
     </S.Section1>
