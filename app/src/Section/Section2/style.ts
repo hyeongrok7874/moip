@@ -67,4 +67,13 @@ export const Point = styled.div`
   background: #000000;
   position: absolute;
   z-index: 10;
+  animation: leftToRight 1s ease-in-out;
+  @keyframes leftToRight {
+    0% {
+      transform: translateX(-84vw);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
 `;
