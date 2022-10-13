@@ -4,10 +4,7 @@ export const Section2 = styled.div`
   height: 1350px;
   background: url("images/mainBackground.png") no-repeat center;
   background-size: cover;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  position: relative;
 `;
 
 export const Section2Wrap = styled.div`
@@ -16,6 +13,8 @@ export const Section2Wrap = styled.div`
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  position: relative;
+  top: 175px;
 `;
 
 export const TitleWrap = styled.div`
@@ -42,4 +41,10 @@ export const GoodsWrapper = styled.div`
   grid-column-gap: 16px;
   grid-template-rows: 354px 354px;
   grid-row-gap: 80px;
+`;
+
+export const WidthDecorationLine = styled.div`
+  height: 0;
+  position: absolute;
+  border: 0.5px solid #000000;
 `;
