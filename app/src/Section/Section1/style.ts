@@ -1,7 +1,6 @@
 import styled from "@emotion/styled";
 
 export const Section1 = styled.div`
-  width: 100vw;
   height: 51vw;
   background: url("/images/background.png") no-repeat center center;
   background-size: cover;
