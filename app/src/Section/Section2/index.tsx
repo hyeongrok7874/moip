@@ -49,6 +49,13 @@ const Section2: React.FC<RankingType> = ({ ranking }) => {
           bottom: 150px;
         `}
       />
+      <S.WidthDecorationLine
+        css={css`
+          width: 16%;
+          right: 0;
+          bottom: 80px;
+        `}
+      />
     </S.Section2>
   );
 };
