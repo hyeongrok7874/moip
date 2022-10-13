@@ -11,12 +11,21 @@ export const Section1 = styled.div`
 `;
 
 export const TitleBox = styled.div`
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 24vw;
+  transform: translateY(-50%);
+`;
+
+export const TitleContentWrap = styled.div`
   height: 150px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  position: relative;
-  top: 41%;
 `;
 
 export const TitleTextBox = styled.div`
@@ -25,6 +34,16 @@ export const TitleTextBox = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+`;
+
+export const DecorationBox = styled.div`
+  width: 98vw;
+  height: 10px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  left: 0;
+  top: 110px;
 `;
 
 export const TitleText = styled.div`
@@ -57,22 +76,20 @@ export const MoveToMainHighlight = styled.span`
 `;
 
 export const DecorationLine = styled.div`
-  width: 98%;
+  width: 100%;
+  height: 0;
   border: 1px solid #ffffff;
   transform: rotate(180deg);
-  position: absolute;
-  left: 0;
-  top: 51%;
 `;
 
 export const DecorationPoint = styled.div`
   width: 9px;
   height: 9px;
   background: #ffffff;
-  position: absolute;
-  top: 50.6%;
-  left: 98%;
   border-radius: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
 `;
 
 export const DecorationBlackLine = styled.div`
