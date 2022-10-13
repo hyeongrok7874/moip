@@ -8,6 +8,7 @@ export const Section2 = styled.div`
 `;
 
 export const Section2Wrap = styled.div`
+  width: 100%;
   height: 900px;
   display: flex;
   flex-direction: column;
@@ -15,6 +16,7 @@ export const Section2Wrap = styled.div`
   align-items: center;
   position: relative;
   top: 175px;
+  z-index: 5;
 `;
 
 export const TitleWrap = styled.div`
@@ -43,8 +45,26 @@ export const GoodsWrapper = styled.div`
   grid-row-gap: 80px;
 `;
 
-export const WidthDecorationLine = styled.div`
-  height: 0;
+const DecorationLine = styled.div`
   position: absolute;
   border: 0.5px solid #000000;
+`;
+
+export const WidthDecorationLine = styled(DecorationLine)`
+  height: 0;
+`;
+
+export const HeightDecorationLine = styled(DecorationLine)`
+  width: 0;
+`;
+
+export const Point = styled.div`
+  width: 7px;
+  height: 7px;
+  border-radius: 100%;
+  top: 677px;
+  left: 84%;
+  background: #000000;
+  position: absolute;
+  z-index: 10;
 `;
