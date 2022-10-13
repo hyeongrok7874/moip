@@ -13,7 +13,7 @@ const Section1 = () => {
   }, []);
 
   const scrollToSection2 = () => {
-    window.scrollTo({ left: 0, top: width * 0.6, behavior: "smooth" });
+    window.scrollTo({ left: 0, top: width * 0.56, behavior: "smooth" });
   };
 
   return (
