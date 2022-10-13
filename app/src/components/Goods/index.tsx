@@ -14,13 +14,7 @@ const Goods: React.FC<PropsType> = ({ rank, data }) => {
       <S.GoodsContent>
         <S.Ranking>{rank}위</S.Ranking>
         <S.ImageFrame>
-          <Image
-            src={data.img}
-            width="100%"
-            layout="fill"
-            objectFit="contain"
-            alt="goods"
-          />
+          <Image src={data.img} layout="fill" objectFit="contain" alt="goods" />
         </S.ImageFrame>
         <S.Brand>{data.brand}</S.Brand>
         <S.Name>{data.name}</S.Name>
