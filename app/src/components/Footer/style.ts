@@ -25,6 +25,7 @@ export const Text = styled.p`
   font-weight: 600;
   font-size: 16px;
   color: #070718;
+  margin: 0;
 `;
 
 export const IconBox = styled.div`

@@ -1,6 +1,6 @@
 import React from "react";
 import * as S from "./style";
-import { Instagram, Github, Discord } from "Assets/svg";
+import { Instagram, Github, Discord } from "../../Assets/svg";
 import { toast } from "react-toastify";
 
 const Footer: React.FC = () => {
