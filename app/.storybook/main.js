@@ -1,3 +1,7 @@
+const path = require("path");
+
+const toPath = (_path) => path.join(process.cwd(), _path);
+
 const TsconfigPathsPlugin = require("tsconfig-paths-webpack-plugin");
 
 module.exports = {
@@ -6,7 +10,6 @@ module.exports = {
     "@storybook/addon-links",
     "@storybook/addon-essentials",
     "@storybook/addon-interactions",
-    "@storybook/preset-create-react-app",
   ],
   framework: "@storybook/react",
   core: {
@@ -25,12 +28,17 @@ module.exports = {
         prop.parent ? !/node_modules/.test(prop.parent.fileName) : true,
     },
   },
-  webpackFinal: (config) => {
+  webpackFinal: async (config) => {
     return {
       ...config,
       resolve: {
         ...config.resolve,
         modules: [...config.resolve.modules],
+        alias: {
+          ...config.resolve.alias,
+          "@emotion/core": toPath("node_modules/@emotion/react"),
+        },
+        plugins: [new TsconfigPathsPlugin()],
         fallback: {
           timers: false,
           tty: false,
