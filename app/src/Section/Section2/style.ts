@@ -39,9 +39,9 @@ export const Section2desc = styled.p`
 
 export const GoodsWrapper = styled.div`
   display: grid;
-  grid-template-columns: 196px 196px 196px 196px 196px;
+  grid-template-columns: repeat(5, 196px);
   grid-column-gap: 16px;
-  grid-template-rows: 354px 354px;
+  grid-template-rows: repeat(2, 354px);
   grid-row-gap: 80px;
 `;
 

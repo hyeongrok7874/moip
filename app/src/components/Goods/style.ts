@@ -29,6 +29,8 @@ export const GoodsContent = styled.div`
 `;
 
 export const Goods = styled.a`
+  width: 196px;
+  display: block;
   position: relative;
   animation: unhover 0.2s;
   :hover ${GoToBuy} {
