@@ -8,17 +8,20 @@ interface PropsType {
   data: Rank;
 }
 
-const Goods: React.FC<PropsType> = ({ rank, data }) => {
+const Goods: React.FC<PropsType> = ({
+  rank,
+  data: { link, img, brand, name, price },
+}) => {
   return (
-    <S.Goods href={data.link}>
+    <S.Goods href={link}>
       <S.GoodsContent>
         <S.Ranking>{rank}위</S.Ranking>
         <S.ImageFrame>
-          <Image src={data.img} layout="fill" objectFit="contain" alt="goods" />
+          <Image src={img} layout="fill" objectFit="contain" alt="goods" />
         </S.ImageFrame>
-        <S.Brand>{data.brand}</S.Brand>
-        <S.Name>{data.name}</S.Name>
-        <S.Price>{data.price}</S.Price>
+        <S.Brand>{brand}</S.Brand>
+        <S.Name>{name}</S.Name>
+        <S.Price>{price}</S.Price>
       </S.GoodsContent>
       <S.GoToBuy>구매하러 가기</S.GoToBuy>
     </S.Goods>
