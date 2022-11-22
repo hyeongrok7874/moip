@@ -7,32 +7,11 @@
     "link": "https://www.musinsa.com/app/goods/1575612?loc=goods_rank"
   },
   {
-    "img": "https://image.msscdn.net/images/goods_img/20150918/252021/252021_5_125.jpg",
-    "brand": "커버낫",
-    "name": "C 로고 후디 네이비",
-    "price": "55,300원",
-    "link": "https://www.musinsa.com/app/goods/252021?loc=goods_rank"
-  },
-  {
-    "img": "https://image.msscdn.net/images/goods_img/20200803/1535337/1535337_1_125.jpg",
-    "brand": "코드그라피",
-    "name": "[DIVO] RDS 유틸리티 덕다운 푸파 숏패딩_쿨그레이",
-    "price": "99,900원",
-    "link": "https://www.musinsa.com/app/goods/1535337?loc=goods_rank"
-  },
-  {
     "img": "https://image.msscdn.net/images/goods_img/20210722/2037173/2037173_45_125.jpg",
     "brand": "스파오",
     "name": "베이직 푸퍼_SPJPC4TC11",
     "price": "59,900원",
     "link": "https://www.musinsa.com/app/goods/2037173?loc=goods_rank"
-  },
-  {
-    "img": "https://image.msscdn.net/images/goods_img/20210812/2061715/2061715_1_125.jpg",
-    "brand": "아디다스",
-    "name": "락업 트랙탑 - 블랙 / H41391",
-    "price": "84,900원",
-    "link": "https://www.musinsa.com/app/goods/2061715?loc=goods_rank"
   },
   {
     "img": "https://image.msscdn.net/images/goods_img/20220303/2396645/2396645_4_125.jpg",
@@ -42,18 +21,18 @@
     "link": "https://www.musinsa.com/app/goods/2396645?loc=goods_rank"
   },
   {
-    "img": "https://image.msscdn.net/images/goods_img/20210820/2074646/2074646_2_125.jpg",
-    "brand": "쿠어",
-    "name": "MTR 발마칸 코트 (멜란지토프)",
-    "price": "296,100원",
-    "link": "https://www.musinsa.com/app/goods/2074646?loc=goods_rank"
+    "img": "https://image.msscdn.net/images/goods_img/20220210/2351444/2351444_1_125.jpg",
+    "brand": "트릴리온",
+    "name": "바이오스톤 워싱 와이드 데님 팬츠 (DEEP GRAY)",
+    "price": "39,800원",
+    "link": "https://www.musinsa.com/app/goods/2351444?loc=goods_rank"
   },
   {
-    "img": "https://image.msscdn.net/images/goods_img/20200909/1593175/1593175_1_125.jpg",
-    "brand": "코드그라피",
-    "name": "[DIVO] RDS 유틸리티 덕다운 후드 숏패딩_블랙",
-    "price": "119,000원",
-    "link": "https://www.musinsa.com/app/goods/1593175?loc=goods_rank"
+    "img": "https://image.msscdn.net/images/goods_img/20220923/2814804/2814804_1_125.jpg",
+    "brand": "디스이즈네버댓",
+    "name": "PERTEX® T Down Jacket Black",
+    "price": "153,300원",
+    "link": "https://www.musinsa.com/app/goods/2814804?loc=goods_rank"
   },
   {
     "img": "https://image.msscdn.net/images/goods_img/20200917/1609490/1609490_8_125.jpg",
@@ -63,10 +42,31 @@
     "link": "https://www.musinsa.com/app/goods/1609490?loc=goods_rank"
   },
   {
-    "img": "https://image.msscdn.net/images/goods_img/20200803/1535334/1535334_3_125.jpg",
-    "brand": "코드그라피",
-    "name": "[DIVO] RDS 유틸리티 덕다운 푸파 숏패딩_라이트그레이",
-    "price": "99,900원",
-    "link": "https://www.musinsa.com/app/goods/1535334?loc=goods_rank"
+    "img": "https://image.msscdn.net/images/goods_img/20220831/2758349/2758349_1_125.jpg",
+    "brand": "디스이즈네버댓",
+    "name": "T-Logo Hoodie Heather Grey",
+    "price": "66,500원",
+    "link": "https://www.musinsa.com/app/goods/2758349?loc=goods_rank"
+  },
+  {
+    "img": "https://image.msscdn.net/images/goods_img/20191001/1173366/1173366_10_125.jpg",
+    "brand": "라퍼지스토어",
+    "name": "[무봉제]덕다운 심리스 미니멀 푸퍼 숏패딩_Black",
+    "price": "85,900원",
+    "link": "https://www.musinsa.com/app/goods/1173366?loc=goods_rank"
+  },
+  {
+    "img": "https://image.msscdn.net/images/goods_img/20210908/2116353/2116353_1_125.jpg",
+    "brand": "어그",
+    "name": "UGG 오버로크 스티치 미니 부츠 (클래식 미니 ll) W - 체스넛 / 1016222CHE",
+    "price": "206,400원",
+    "link": "https://www.musinsa.com/app/goods/2116353?loc=goods_rank"
+  },
+  {
+    "img": "https://image.msscdn.net/images/goods_img/20210906/2112059/2112059_1_125.jpg",
+    "brand": "가까이 유니언즈",
+    "name": "원턱 와이드 스웨트팬츠 그레이",
+    "price": "31,400원",
+    "link": "https://www.musinsa.com/app/goods/2112059?loc=goods_rank"
   }
 ]
