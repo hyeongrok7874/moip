@@ -21,13 +21,6 @@
     "link": "https://www.musinsa.com/app/goods/1616798?loc=goods_rank"
   },
   {
-    "img": "https://image.msscdn.net/images/goods_img/20221208/2976919/2976919_2_125.jpg",
-    "brand": "뉴발란스",
-    "name": "NBPDDS164G / MR530CB (GRAY)",
-    "price": "129,000원",
-    "link": "https://www.musinsa.com/app/goods/2976919?loc=goods_rank"
-  },
-  {
     "img": "https://image.msscdn.net/images/goods_img/20210728/2042868/2042868_1_125.jpg",
     "brand": "어그",
     "name": "오버로크 스티치 숏 부츠 (클래식 숏 II) W - 체스넛 / 1016223CHE",
@@ -35,11 +28,11 @@
     "link": "https://www.musinsa.com/app/goods/2042868?loc=goods_rank"
   },
   {
-    "img": "https://image.msscdn.net/images/goods_img/20210908/2116357/2116357_1_125.jpg",
-    "brand": "어그",
-    "name": "UGG 로고 그래픽 클리어 미니 부츠 (클래식 클리어 미니) W - 네츄럴:블랙 / 1113190NBLC",
-    "price": "206,400원",
-    "link": "https://www.musinsa.com/app/goods/2116357?loc=goods_rank"
+    "img": "https://image.msscdn.net/images/goods_img/20191001/1173366/1173366_10_125.jpg",
+    "brand": "라퍼지스토어",
+    "name": "[무봉제]덕다운 심리스 미니멀 푸퍼 숏패딩_Black",
+    "price": "89,900원",
+    "link": "https://www.musinsa.com/app/goods/1173366?loc=goods_rank"
   },
   {
     "img": "https://image.msscdn.net/images/goods_img/20161123/452483/452483_2_125.jpg",
@@ -47,13 +40,6 @@
     "name": "솔리드 무톤 자켓",
     "price": "129,500원",
     "link": "https://www.musinsa.com/app/goods/452483?loc=goods_rank"
-  },
-  {
-    "img": "https://image.msscdn.net/images/goods_img/20191001/1173366/1173366_10_125.jpg",
-    "brand": "라퍼지스토어",
-    "name": "[무봉제]덕다운 심리스 미니멀 푸퍼 숏패딩_Black",
-    "price": "89,900원",
-    "link": "https://www.musinsa.com/app/goods/1173366?loc=goods_rank"
   },
   {
     "img": "https://image.msscdn.net/images/goods_img/20220727/2685520/2685520_5_125.jpg",
@@ -68,5 +54,19 @@
     "name": "울리치 발마칸 오버 코트_Black",
     "price": "108,000원",
     "link": "https://www.musinsa.com/app/goods/1609490?loc=goods_rank"
+  },
+  {
+    "img": "https://image.msscdn.net/images/goods_img/20210722/2037167/2037167_37_125.jpg",
+    "brand": "스파오",
+    "name": "파스텔 푸퍼_SPJPC4TG01",
+    "price": "62,910원",
+    "link": "https://www.musinsa.com/app/goods/2037167?loc=goods_rank"
+  },
+  {
+    "img": "https://image.msscdn.net/images/goods_img/20210908/2116357/2116357_1_125.jpg",
+    "brand": "어그",
+    "name": "UGG 로고 그래픽 클리어 미니 부츠 (클래식 클리어 미니) W - 네츄럴:블랙 / 1113190NBLC",
+    "price": "206,400원",
+    "link": "https://www.musinsa.com/app/goods/2116357?loc=goods_rank"
   }
 ]
