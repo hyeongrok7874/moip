@@ -35,13 +35,6 @@
     "link": "https://www.musinsa.com/app/goods/2037173?loc=goods_rank"
   },
   {
-    "img": "https://image.msscdn.net/images/goods_img/20220826/2747078/2747078_2_125.jpg",
-    "brand": "어나더 오피스",
-    "name": "22AW Santiago Slacks (Black)",
-    "price": "156,000원",
-    "link": "https://www.musinsa.com/app/goods/2747078?loc=goods_rank"
-  },
-  {
     "img": "https://image.msscdn.net/images/goods_img/20200818/1551840/1551840_1_125.jpg",
     "brand": "제로",
     "name": "Deep One Tuck Sweat Pants [Grey]",
@@ -49,24 +42,31 @@
     "link": "https://www.musinsa.com/app/goods/1551840?loc=goods_rank"
   },
   {
-    "img": "https://image.msscdn.net/images/goods_img/20221228/3000157/3000157_16735835634828_125.jpg",
-    "brand": "질스튜어트액세서리",
-    "name": "[젤라또] 네이비 스티치장식 면 슬링백",
-    "price": "118,500원",
-    "link": "https://www.musinsa.com/app/goods/3000157?loc=goods_rank"
-  },
-  {
-    "img": "https://image.msscdn.net/images/goods_img/20220826/2747099/2747099_1_125.jpg",
-    "brand": "어나더 오피스",
-    "name": "22AW Santiago Slacks (Charcoal)",
-    "price": "156,000원",
-    "link": "https://www.musinsa.com/app/goods/2747099?loc=goods_rank"
-  },
-  {
     "img": "https://image.msscdn.net/images/goods_img/20161123/452483/452483_2_125.jpg",
     "brand": "도프제이슨",
     "name": "솔리드 무톤 자켓",
     "price": "129,500원",
     "link": "https://www.musinsa.com/app/goods/452483?loc=goods_rank"
+  },
+  {
+    "img": "https://image.msscdn.net/images/goods_img/20220826/2747102/2747102_1_125.jpg",
+    "brand": "어나더 오피스",
+    "name": "22AW Santiago Slacks (Heather Gray)",
+    "price": "156,000원",
+    "link": "https://www.musinsa.com/app/goods/2747102?loc=goods_rank"
+  },
+  {
+    "img": "https://image.msscdn.net/images/goods_img/20210204/1778404/1778404_1_125.jpg",
+    "brand": "토피",
+    "name": "2WAY 스웻 후드 집업 (MELANGE GREY)",
+    "price": "37,000원",
+    "link": "https://www.musinsa.com/app/goods/1778404?loc=goods_rank"
+  },
+  {
+    "img": "https://image.msscdn.net/images/goods_img/20210826/2092852/2092852_5_125.jpg",
+    "brand": "굿라이프웍스",
+    "name": "[기모선택] 이지 와이드 데님 팬츠 그레이",
+    "price": "42,000원",
+    "link": "https://www.musinsa.com/app/goods/2092852?loc=goods_rank"
   }
 ]
