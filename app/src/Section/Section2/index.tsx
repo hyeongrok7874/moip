@@ -1,11 +1,11 @@
 import Goods from "components/Goods";
 import React from "react";
 import * as S from "./style";
-import { Rank } from "types/goods";
 import { css, keyframes } from "@emotion/react";
+import { DailyRanking } from "musinsa";
 
 interface RankingType {
-  ranking: Rank[];
+  ranking: DailyRanking[];
 }
 
 const leftToRight = keyframes`
@@ -53,7 +53,7 @@ const Section2: React.FC<RankingType> = ({ ranking }) => {
           <S.Section2desc>무신사 일간 랭킹.</S.Section2desc>
         </S.TitleWrap>
         <S.GoodsWrapper>
-          {ranking.map((data, index) => (
+          {ranking?.map((data, index) => (
             <Goods key={index} rank={index + 1} data={data} />
           ))}
         </S.GoodsWrapper>

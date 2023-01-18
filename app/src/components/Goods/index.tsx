@@ -1,11 +1,11 @@
 import React from "react";
 import * as S from "./style";
-import { Rank } from "types/goods";
 import Image from "next/image";
+import { DailyRanking } from "musinsa";
 
 interface PropsType {
   rank: number;
-  data: Rank;
+  data: DailyRanking;
 }
 
 const Goods: React.FC<PropsType> = ({
@@ -17,7 +17,12 @@ const Goods: React.FC<PropsType> = ({
       <S.GoodsContent>
         <S.Ranking>{rank}위</S.Ranking>
         <S.ImageFrame>
-          <Image src={img} layout="fill" objectFit="contain" alt="goods" />
+          <Image
+            src={img || ""}
+            layout="fill"
+            objectFit="contain"
+            alt="goods"
+          />
         </S.ImageFrame>
         <S.Brand>{brand}</S.Brand>
         <S.Name>{name}</S.Name>
