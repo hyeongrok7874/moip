@@ -2,10 +2,10 @@ import Goods from "components/Goods";
 import React from "react";
 import * as S from "./style";
 import { css, keyframes } from "@emotion/react";
-import { DailyRanking } from "musinsa";
+import { DailyRankingType } from "musinsa";
 
 interface RankingType {
-  ranking: DailyRanking[];
+  ranking: DailyRankingType[];
 }
 
 const leftToRight = keyframes`

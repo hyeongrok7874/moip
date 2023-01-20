@@ -1,11 +1,11 @@
 import React from "react";
 import * as S from "./style";
 import Image from "next/image";
-import { DailyRanking } from "musinsa";
+import { DailyRankingType } from "musinsa";
 
 interface PropsType {
   rank: number;
-  data: DailyRanking;
+  data: DailyRankingType;
 }
 
 const Goods: React.FC<PropsType> = ({
