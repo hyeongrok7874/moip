@@ -60,7 +60,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-config-next", "virtual:009ff0571cc0a298470ec4742f6bf376b863e95b1591bf306c8c086327bdf411b27d7fc601c39bd51644369c1a14a9e24ebe0ff0e281db7558529278b4f939dc#npm:12.2.3"],\
             ["eslint-config-prettier", "virtual:009ff0571cc0a298470ec4742f6bf376b863e95b1591bf306c8c086327bdf411b27d7fc601c39bd51644369c1a14a9e24ebe0ff0e281db7558529278b4f939dc#npm:8.5.0"],\
             ["eslint-plugin-storybook", "virtual:009ff0571cc0a298470ec4742f6bf376b863e95b1591bf306c8c086327bdf411b27d7fc601c39bd51644369c1a14a9e24ebe0ff0e281db7558529278b4f939dc#npm:0.6.1"],\
-            ["musinsa", "npm:1.0.22"],\
+            ["musinsa", "npm:1.0.26"],\
             ["next", "virtual:009ff0571cc0a298470ec4742f6bf376b863e95b1591bf306c8c086327bdf411b27d7fc601c39bd51644369c1a14a9e24ebe0ff0e281db7558529278b4f939dc#npm:12.2.3"],\
             ["prettier", "npm:2.7.1"],\
             ["react", "npm:18.2.0"],\
@@ -15774,7 +15774,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-config-next", "virtual:009ff0571cc0a298470ec4742f6bf376b863e95b1591bf306c8c086327bdf411b27d7fc601c39bd51644369c1a14a9e24ebe0ff0e281db7558529278b4f939dc#npm:12.2.3"],\
             ["eslint-config-prettier", "virtual:009ff0571cc0a298470ec4742f6bf376b863e95b1591bf306c8c086327bdf411b27d7fc601c39bd51644369c1a14a9e24ebe0ff0e281db7558529278b4f939dc#npm:8.5.0"],\
             ["eslint-plugin-storybook", "virtual:009ff0571cc0a298470ec4742f6bf376b863e95b1591bf306c8c086327bdf411b27d7fc601c39bd51644369c1a14a9e24ebe0ff0e281db7558529278b4f939dc#npm:0.6.1"],\
-            ["musinsa", "npm:1.0.22"],\
+            ["musinsa", "npm:1.0.26"],\
             ["next", "virtual:009ff0571cc0a298470ec4742f6bf376b863e95b1591bf306c8c086327bdf411b27d7fc601c39bd51644369c1a14a9e24ebe0ff0e281db7558529278b4f939dc#npm:12.2.3"],\
             ["prettier", "npm:2.7.1"],\
             ["react", "npm:18.2.0"],\
@@ -15820,10 +15820,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["musinsa", [\
-        ["npm:1.0.22", {\
-          "packageLocation": "./.yarn/cache/musinsa-npm-1.0.22-c9c4e09299-01edc365ae.zip/node_modules/musinsa/",\
+        ["npm:1.0.26", {\
+          "packageLocation": "./.yarn/cache/musinsa-npm-1.0.26-ee1f9a6d92-9467dc0978.zip/node_modules/musinsa/",\
           "packageDependencies": [\
-            ["musinsa", "npm:1.0.22"],\
+            ["musinsa", "npm:1.0.26"],\
             ["axios", "npm:1.2.3"],\
             ["cheerio", "npm:1.0.0-rc.12"]\
           ],\
