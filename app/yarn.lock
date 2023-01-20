@@ -10929,7 +10929,7 @@ __metadata:
     eslint-config-next: 12.2.3
     eslint-config-prettier: ^8.5.0
     eslint-plugin-storybook: ^0.6.1
-    musinsa: ^1.0.16
+    musinsa: ^1.0.19
     next: 12.2.3
     prettier: ^2.7.1
     react: 18.2.0
@@ -10971,13 +10971,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"musinsa@npm:^1.0.16":
-  version: 1.0.16
-  resolution: "musinsa@npm:1.0.16"
+"musinsa@npm:^1.0.19":
+  version: 1.0.19
+  resolution: "musinsa@npm:1.0.19"
   dependencies:
     axios: ^1.2.2
     cheerio: ^1.0.0-rc.12
-  checksum: 4c5d6419bc27f81420e3a2b8151b7c3dc8470358418471118af53f8e2afc64b6f54a3f633248efdf183fbd49a419473b48826dcb0aedc9d891679bc1c4856a4a
+  checksum: d01d508e6a8e33982ecf1a305617e17c541063c1b721b302358958ca0cf20de061fa06f26537f57c6e22eb98969c129531524cc8962413775b3acae5f325711f
   languageName: node
   linkType: hard
 
