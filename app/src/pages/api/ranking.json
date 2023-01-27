@@ -7,13 +7,6 @@
     "link": "https://www.musinsa.com/app/goods/2992063?loc=goods_rank"
   },
   {
-    "img": "https://image.msscdn.net/images/goods_img/20220907/2779952/2779952_1_125.png",
-    "brand": "그레일즈",
-    "name": "NYLON SHIELD JACKET [BLACK/GREY]",
-    "price": "279,000원",
-    "link": "https://www.musinsa.com/app/goods/2779952?loc=goods_rank"
-  },
-  {
     "img": "https://image.msscdn.net/images/goods_img/20210906/2112059/2112059_1_125.jpg",
     "brand": "가까이 유니언즈",
     "name": "원턱 와이드 스웨트팬츠 그레이",
@@ -68,5 +61,12 @@
     "name": "2WAY 스웻 후드 집업 (MELANGE GREY)",
     "price": "42,000원",
     "link": "https://www.musinsa.com/app/goods/1778404?loc=goods_rank"
+  },
+  {
+    "img": "https://image.msscdn.net/images/goods_img/20200818/1551840/1551840_1_125.jpg",
+    "brand": "제로",
+    "name": "Deep One Tuck Sweat Pants [Grey]",
+    "price": "39,000원",
+    "link": "https://www.musinsa.com/app/goods/1551840?loc=goods_rank"
   }
 ]
