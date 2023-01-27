@@ -7,7 +7,7 @@ export default {
   title: "Goods",
   component: Goods,
   parameters: {
-    layout: "fullscreen",
+    layout: "centered",
   },
 } as ComponentMeta<typeof Goods>;
 
