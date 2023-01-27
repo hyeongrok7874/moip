@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import * as S from "./style";
 import { Pointer } from "Assets/svg";
+import { MusinsaLink } from "components";
 
 const Section1 = () => {
   const [width, setWidth] = useState<number>(0);
@@ -18,6 +19,7 @@ const Section1 = () => {
 
   return (
     <S.Section1>
+      <MusinsaLink />
       <S.TitleBox>
         <S.TitleContentWrap>
           <S.TitleTextBox>
