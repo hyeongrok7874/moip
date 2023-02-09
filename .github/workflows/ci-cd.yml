@@ -19,6 +19,7 @@ jobs:
           EOF
           chmod 400 access.pem
           ssh -i access.pem ubuntu@${{secrets.EC2_IP}}
+          yes
 
       - name: Test
         run: |
