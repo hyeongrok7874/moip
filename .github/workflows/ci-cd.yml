@@ -1,0 +1,21 @@
+name: ci-cd
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Access to EC2
+        run: |
+          ssh -i ${{secrets.EC2_PEM}} ubuntu@${{secrets.EC2_IP}}
+
+      - name: Test
+        run: |
+          mkdir test-directory
