@@ -17,6 +17,7 @@ jobs:
           cat <<EOF > hello.txt
           hi
           EOF
+          head hello.txt
 
       - name: Access to EC2
         uses: appleboy/ssh-action@master
