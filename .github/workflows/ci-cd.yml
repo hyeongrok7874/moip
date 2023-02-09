@@ -12,28 +12,22 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: test
+        # - name: Access to EC2
+        #   uses: appleboy/ssh-action@master
+        #   with:
+        #     host: ${{secrets.EC2_IP}}
+        #     username: ubuntu
+        #     key: ${{secrets.EC2_PEM}}
+        #     script: |
+        #       mkdir test-directory
         run: |
-          cat <<EOF > hello.txt
-          hi
+          cat <<EOF > access.pem
+          ${{secrets.EC2_PEM}}
           EOF
-          head hello.txt
-
-      - name: Access to EC2
-        uses: appleboy/ssh-action@master
-        with:
-          host: ${{secrets.EC2_IP}}
-          username: ubuntu
-          key: ${{secrets.EC2_PEM}}
-          script: |
-            mkdir test-directory
-        # run: |
-        #   cat <<EOF > access.pem
-        #   ${{secrets.EC2_PEM}}
-        #   EOF
-        #   chmod 400 access.pem
-        #   ssh -i access.pem ubuntu@${{secrets.EC2_IP}}
-        #   yes
+          head access.pem
+          chmod 400 access.pem
+          ssh -i access.pem ubuntu@${{secrets.EC2_IP}}
+          yes
 
       - name: Test
         run: |
