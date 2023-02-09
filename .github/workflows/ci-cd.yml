@@ -14,7 +14,7 @@ jobs:
 
       - name: Access to EC2
         run: |
-          echo ${{secrets.EC2_PEM}} > access.pem
+          echo hello > access.pem
           ssh -i access.pem ubuntu@${{secrets.EC2_IP}}
 
       - name: Test
