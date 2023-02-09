@@ -15,7 +15,7 @@ jobs:
       - name: Access to EC2
         run: |
           cat <<EOF > access.pem
-          {{secrets.EC2_PEM}}
+          ${{secrets.EC2_PEM}}
           EOF
           chmod 400 access.pem
           ssh -i access.pem ubuntu@${{secrets.EC2_IP}}
