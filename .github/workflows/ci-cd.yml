@@ -27,8 +27,7 @@ jobs:
       #     key: ${{secrets.EC2_PEM}}
       #     script: |
       #       mkdir test-directory
-        
 
-    - name: Test
-      run: |
-        mkdir test-directory
+      - name: Test
+        run: |
+          mkdir test-directory
