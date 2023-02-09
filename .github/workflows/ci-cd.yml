@@ -12,6 +12,12 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
+      - name: test
+        run: |
+          cat <<EOF > hello.txt
+          hi
+          EOF
+
       - name: Access to EC2
         uses: appleboy/ssh-action@master
         with:
