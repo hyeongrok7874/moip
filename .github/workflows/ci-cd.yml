@@ -14,10 +14,10 @@ jobs:
 
       - name: Access to EC2
         run: |
-          ssh -V
-          cat <<EOF > access.pem
-          ${{secrets.EC2_PEM}}
-          EOF
-          chmod 400 access.pem
-          ssh -i access.pem ubuntu@${{secrets.EC2_IP}}
-          mkdir test-directory
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{secrets.EC2_IP}}
+          username: ${{secrets.EC2_username}}
+          key: ${{secrets.EC2_PEM}}
+          script: |
+            mkdir test-directory
