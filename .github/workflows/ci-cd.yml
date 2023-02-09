@@ -14,6 +14,7 @@ jobs:
 
       - name: Access to EC2
         run: |
+          ssh-keygen -R hostname
           cat <<EOF > access.pem
           ${{secrets.EC2_PEM}}
           EOF
