@@ -20,14 +20,14 @@ jobs:
         #     key: ${{secrets.EC2_PEM}}
         #     script: |
         #       mkdir test-directory
-        run: |
-          cat <<EOF > access.pem
-          ${{secrets.EC2_PEM}}
-          EOF
-          head access.pem
-          chmod 400 access.pem
-          ssh -i access.pem ubuntu@${{secrets.EC2_IP}}
-          yes
+          run: |
+            cat <<EOF > access.pem
+            ${{secrets.EC2_PEM}}
+            EOF
+            head access.pem
+            chmod 400 access.pem
+            ssh -i access.pem ubuntu@${{secrets.EC2_IP}}
+            yes
 
       - name: Test
         run: |
