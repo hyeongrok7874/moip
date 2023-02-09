@@ -19,17 +19,5 @@ jobs:
           ${{secrets.EC2_PEM}}
           EOF
           chmod 400 access.pem
-          ssh-keygen -R hostname
           ssh -i access.pem ubuntu@${{secrets.EC2_IP}}
-          yes
-      #   uses: appleboy/ssh-action@master
-      #   with:
-      #     host: ${{secrets.EC2_IP}}
-      #     username: ubuntu
-      #     key: ${{secrets.EC2_PEM}}
-      #     script: |
-      #       mkdir test-directory
-
-      - name: Test
-        run: |
           mkdir test-directory
