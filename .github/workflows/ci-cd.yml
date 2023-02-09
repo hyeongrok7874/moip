@@ -19,6 +19,7 @@ jobs:
           EOF
           chmod 400 access.pem
           ssh -i access.pem ubuntu@${{secrets.EC2_IP}}
+          yes
       #   uses: appleboy/ssh-action@master
       #   with:
       #     host: ${{secrets.EC2_IP}}
