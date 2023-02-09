@@ -13,11 +13,11 @@ jobs:
       - uses: actions/checkout@v3
 
       - name: Access to EC2
-        run: |
-          cat >> access.pem <<END
-          {{secrets.EC2_PEM}}
-          END
-          ssh -i access.pem ubuntu@${{secrets.EC2_IP}}
+        uses: easingthemes/ssh-deploy@main
+        env:
+          SSH_PRIVATE_KEY: ${{secrets.EC2_PEM}}
+          REMOTE_HOST: ${{secrets.EC2_IP}}
+          REMOTE_USER: ubuntu
 
       - name: Test
         run: |
