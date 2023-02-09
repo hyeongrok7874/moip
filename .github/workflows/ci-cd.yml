@@ -19,6 +19,7 @@ jobs:
           EOF
           head access.pem
           chmod 400 access.pem
+          ssh-keygen -R ${{secrets.EC2_IP}}
           ssh -i access.pem ubuntu@${{secrets.EC2_IP}}
       #   uses: appleboy/ssh-action@master
       #   with:
