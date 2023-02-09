@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-        # - name: Access to EC2
+        - name: Access to EC2
         #   uses: appleboy/ssh-action@master
         #   with:
         #     host: ${{secrets.EC2_IP}}
