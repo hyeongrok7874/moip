@@ -7,13 +7,6 @@
     "link": "https://www.musinsa.com/app/goods/3030422?loc=goods_rank"
   },
   {
-    "img": "https://image.msscdn.net/images/goods_img/20201224/1730340/1730340_4_125.jpg",
-    "brand": "클락스",
-    "name": "WALLABEE 26155515",
-    "price": "180,600원",
-    "link": "https://www.musinsa.com/app/goods/1730340?loc=goods_rank"
-  },
-  {
     "img": "https://image.msscdn.net/images/goods_img/20200828/1568057/1568057_4_125.jpg",
     "brand": "어널러코드",
     "name": "사계절 스트링 트레이닝팬츠 (그레이)",
@@ -35,18 +28,11 @@
     "link": "https://www.musinsa.com/app/goods/1264107?loc=goods_rank"
   },
   {
-    "img": "https://image.msscdn.net/images/goods_img/20230105/3007774/3007774_16746128102774_125.jpg",
-    "brand": "마하그리드",
-    "name": "DON’T PANIC PIGMENT SWEATSHIRT PINK(MG2DSMM441A)",
-    "price": "59,200원",
-    "link": "https://www.musinsa.com/app/goods/3007774?loc=goods_rank"
-  },
-  {
-    "img": "https://image.msscdn.net/images/goods_img/20220105/2293400/2293400_1_125.jpg",
-    "brand": "아디다스",
-    "name": "가젤 - 블랙 / BB5476",
-    "price": "129,000원",
-    "link": "https://www.musinsa.com/app/goods/2293400?loc=goods_rank"
+    "img": "https://image.msscdn.net/images/goods_img/20210813/2064545/2064545_16746126780375_125.jpg",
+    "brand": "라퍼지스토어",
+    "name": "버핑레더 오버핏 블루종_Black",
+    "price": "79,800원",
+    "link": "https://www.musinsa.com/app/goods/2064545?loc=goods_rank"
   },
   {
     "img": "https://image.msscdn.net/images/goods_img/20210906/2112059/2112059_1_125.jpg",
@@ -56,17 +42,31 @@
     "link": "https://www.musinsa.com/app/goods/2112059?loc=goods_rank"
   },
   {
-    "img": "https://image.msscdn.net/images/goods_img/20220530/2589483/2589483_1_125.jpg",
-    "brand": "아디다스",
-    "name": "아딜렛 22 - 베이지 / GX6945",
-    "price": "49,900원",
-    "link": "https://www.musinsa.com/app/goods/2589483?loc=goods_rank"
+    "img": "https://image.msscdn.net/images/goods_img/20210817/2066837/2066837_5_125.jpg",
+    "brand": "예일",
+    "name": "THINK PACK",
+    "price": "79,000원",
+    "link": "https://www.musinsa.com/app/goods/2066837?loc=goods_rank"
   },
   {
-    "img": "https://image.msscdn.net/images/goods_img/20230206/3061200/3061200_16756548921154_125.jpg",
-    "brand": "비긴202",
-    "name": "One Tuck Wide Baker Pants [Olive]",
-    "price": "115,000원",
-    "link": "https://www.musinsa.com/app/goods/3061200?loc=goods_rank"
+    "img": "https://image.msscdn.net/images/goods_img/20210204/1778404/1778404_1_125.jpg",
+    "brand": "토피",
+    "name": "2WAY 스웻 후드 집업 (MELANGE GREY)",
+    "price": "42,000원",
+    "link": "https://www.musinsa.com/app/goods/1778404?loc=goods_rank"
+  },
+  {
+    "img": "https://image.msscdn.net/images/goods_img/20200818/1551840/1551840_1_125.jpg",
+    "brand": "제로",
+    "name": "Deep One Tuck Sweat Pants [Grey]",
+    "price": "35,100원",
+    "link": "https://www.musinsa.com/app/goods/1551840?loc=goods_rank"
+  },
+  {
+    "img": "https://image.msscdn.net/images/goods_img/20230120/3036129/3036129_16745604936368_125.jpg",
+    "brand": "라퍼지스토어",
+    "name": "버프워시 버핑레더 인시전 바이커 자켓_Washing Black&Ivory",
+    "price": "79,800원",
+    "link": "https://www.musinsa.com/app/goods/3036129?loc=goods_rank"
   }
 ]
