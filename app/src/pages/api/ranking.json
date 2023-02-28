@@ -7,46 +7,11 @@
     "link": "https://www.musinsa.com/app/goods/3079917?loc=goods_rank"
   },
   {
-    "img": "https://image.msscdn.net/images/goods_img/20230213/3079914/3079914_16772055349688_125.jpg",
-    "brand": "라퍼지스토어",
-    "name": "윈드셀 유틸리티 카고 파라슈트 팬츠_Black",
-    "price": "39,800원",
-    "link": "https://www.musinsa.com/app/goods/3079914?loc=goods_rank"
-  },
-  {
     "img": "https://image.msscdn.net/images/goods_img/20210204/1778404/1778404_1_125.jpg",
     "brand": "토피",
     "name": "2WAY 스웻 후드 집업 (MELANGE GREY)",
     "price": "42,000원",
     "link": "https://www.musinsa.com/app/goods/1778404?loc=goods_rank"
-  },
-  {
-    "img": "https://image.msscdn.net/images/goods_img/20220222/2375962/2375962_1_125.jpg",
-    "brand": "유니온블루",
-    "name": "LAUNDRY SHIRT (LAVENDER GRAY)",
-    "price": "59,000원",
-    "link": "https://www.musinsa.com/app/goods/2375962?loc=goods_rank"
-  },
-  {
-    "img": "https://image.msscdn.net/images/goods_img/20190503/1034480/1034480_1_125.jpg",
-    "brand": "노스페이스",
-    "name": "NM2DP51A 빅샷",
-    "price": "135,000원",
-    "link": "https://www.musinsa.com/app/goods/1034480?loc=goods_rank"
-  },
-  {
-    "img": "https://image.msscdn.net/images/goods_img/20200107/1264107/1264107_16738508969349_125.jpg",
-    "brand": "네이키드니스",
-    "name": "메쉬 스트링 백팩 블랙",
-    "price": "65,000원",
-    "link": "https://www.musinsa.com/app/goods/1264107?loc=goods_rank"
-  },
-  {
-    "img": "https://image.msscdn.net/images/goods_img/20230213/3079918/3079918_16771623542968_125.jpg",
-    "brand": "라퍼지스토어",
-    "name": "[SET UP]윈드셀 빅포켓 크롭자켓&파라슈트 팬츠_Tan Brown",
-    "price": "79,800원",
-    "link": "https://www.musinsa.com/app/goods/3079918?loc=goods_rank"
   },
   {
     "img": "https://image.msscdn.net/images/goods_img/20200924/1622068/1622068_1_125.jpg",
@@ -63,10 +28,45 @@
     "link": "https://www.musinsa.com/app/goods/1576700?loc=goods_rank"
   },
   {
-    "img": "https://image.msscdn.net/images/goods_img/20210813/2064545/2064545_16746126780375_125.jpg",
+    "img": "https://image.msscdn.net/images/goods_img/20210906/2112059/2112059_1_125.jpg",
+    "brand": "가까이 유니언즈",
+    "name": "원턱 와이드 스웨트팬츠 그레이",
+    "price": "34,800원",
+    "link": "https://www.musinsa.com/app/goods/2112059?loc=goods_rank"
+  },
+  {
+    "img": "https://image.msscdn.net/images/goods_img/20200818/1551840/1551840_1_125.jpg",
+    "brand": "제로",
+    "name": "Deep One Tuck Sweat Pants [Grey]",
+    "price": "35,100원",
+    "link": "https://www.musinsa.com/app/goods/1551840?loc=goods_rank"
+  },
+  {
+    "img": "https://image.msscdn.net/images/goods_img/20221221/2992063/2992063_1_125.jpg",
+    "brand": "살로몬 스포츠스타일",
+    "name": "XT-6 GTX - 블랙:에보니:루나 락 / L41663500",
+    "price": "280,000원",
+    "link": "https://www.musinsa.com/app/goods/2992063?loc=goods_rank"
+  },
+  {
+    "img": "https://image.msscdn.net/images/goods_img/20220829/2752332/2752332_1_125.jpg",
+    "brand": "레테르코모",
+    "name": "빅 어워드 스타디움 울 바시티자켓 블랙",
+    "price": "94,700원",
+    "link": "https://www.musinsa.com/app/goods/2752332?loc=goods_rank"
+  },
+  {
+    "img": "https://image.msscdn.net/images/goods_img/20230213/3079914/3079914_16772055349688_125.jpg",
     "brand": "라퍼지스토어",
-    "name": "버핑레더 오버핏 블루종_Black",
-    "price": "79,800원",
-    "link": "https://www.musinsa.com/app/goods/2064545?loc=goods_rank"
+    "name": "윈드셀 유틸리티 카고 파라슈트 팬츠_Black",
+    "price": "39,800원",
+    "link": "https://www.musinsa.com/app/goods/3079914?loc=goods_rank"
+  },
+  {
+    "img": "https://image.msscdn.net/images/goods_img/20220303/2396645/2396645_4_125.jpg",
+    "brand": "수아레",
+    "name": "워셔블 하찌 니트 - 11 COLOR",
+    "price": "39,900원",
+    "link": "https://www.musinsa.com/app/goods/2396645?loc=goods_rank"
   }
 ]
