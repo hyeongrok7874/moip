@@ -55,12 +55,14 @@ export const TitleHighlight = styled.div`
   font-size: 56px;
 `;
 
-export const MoveToMainBox = styled.a`
+export const MoveToMainBox = styled.button`
   width: 235px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   cursor: pointer;
+  background: inherit;
+  border: none;
 `;
 
 export const MoveToMainText = styled.span`
