@@ -19,7 +19,8 @@ class MyDocument extends Document {
           <link
             rel="stylesheet"
             as="style"
-            href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.5/dist/web/static/pretendard.css"
+            crossOrigin=""
+            href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/variable/pretendardvariable-dynamic-subset.css"
           />
           <link rel="shortcut icon" href="/icons/favicon.png" />
           <meta
