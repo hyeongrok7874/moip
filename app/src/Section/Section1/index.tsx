@@ -39,8 +39,6 @@ const Section1 = () => {
           <S.DecorationPoint />
         </S.DecorationBox>
       </S.TitleBox>
-      {/* <S.DecorationLine /> */}
-      {/* <S.DecorationPoint /> */}
       <S.DecorationBlackLine />
       <S.DecorationText>TOP10_MUSINSA</S.DecorationText>
     </S.Section1>
