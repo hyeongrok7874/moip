@@ -24,10 +24,15 @@ const Footer: React.FC = () => {
           <S.Link
             href="https://www.instagram.com/khr5k_0228/?hl=ko"
             target="_blank"
+            aria-label="Go to Instagram"
           >
             <Instagram />
           </S.Link>
-          <S.Link href="https://github.com/hyeongrok7874" target="_blank">
+          <S.Link
+            href="https://github.com/hyeongrok7874"
+            target="_blank"
+            aria-label="Go to Github"
+          >
             <Github />
           </S.Link>
           <S.CopyID onClick={copyID}>
