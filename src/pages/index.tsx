@@ -1,8 +1,8 @@
-import React from 'react';
-import { Section1, Section2 } from 'Section';
-import { Footer } from 'components';
-import type { GetServerSideProps, GetStaticProps, NextPage } from 'next';
-import { getDailyRanking, DailyRankingType } from 'musinsa';
+import React from "react";
+import { Section1, Section2 } from "Section";
+import { Footer } from "components";
+import type { GetServerSideProps, GetStaticProps, NextPage } from "next";
+import { getDailyRanking, DailyRankingType } from "musinsa";
 
 interface PropsType {
   ranking: DailyRankingType[];
