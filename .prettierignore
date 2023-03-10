@@ -1,0 +1,8 @@
+.yarn
+.next
+.storybook
+.vscode
+.github
+.husky
+.pnp.cjs
+.pnp.loader.mjs
