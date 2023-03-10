@@ -64,12 +64,6 @@ export const Goods = styled.a`
   }
 `;
 
-export const ImageFrame = styled.div`
-  width: 164px;
-  height: 196px;
-  position: relative;
-`;
-
 export const Ranking = styled.p`
   font-weight: 600;
   font-size: 14px;

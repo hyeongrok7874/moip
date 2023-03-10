@@ -2,6 +2,7 @@ import React from "react";
 import * as S from "./style";
 import Image from "next/image";
 import { DailyRankingType } from "musinsa";
+import { css } from "@emotion/react";
 
 interface PropsType {
   rank: number;
@@ -16,14 +17,15 @@ const Goods: React.FC<PropsType> = ({
     <S.Goods href={link}>
       <S.GoodsContent>
         <S.Ranking>{rank}위</S.Ranking>
-        <S.ImageFrame>
-          <Image
-            src={img || ""}
-            layout="fill"
-            objectFit="contain"
-            alt="goods"
-          />
-        </S.ImageFrame>
+        <Image
+          src={img || ""}
+          width={164}
+          height={196}
+          alt={name}
+          css={css`
+            object-fit: contain;
+          `}
+        />
         <S.Brand>{brand}</S.Brand>
         <S.Name>{name}</S.Name>
         <S.Price>{price}</S.Price>
