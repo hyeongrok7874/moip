@@ -1,8 +1,8 @@
-import React from "react";
-import { Section1, Section2 } from "Section";
-import { Footer } from "components";
-import type { GetServerSideProps, GetStaticProps, NextPage } from "next";
-import { getDailyRanking, DailyRankingType } from "musinsa";
+import React from 'react';
+import { Section1, Section2 } from 'Section';
+import { Footer } from 'components';
+import type { GetServerSideProps, GetStaticProps, NextPage } from 'next';
+import { getDailyRanking, DailyRankingType } from 'musinsa';
 
 interface PropsType {
   ranking: DailyRankingType[];
@@ -17,19 +17,6 @@ const Home: NextPage<PropsType> = ({ ranking }) => {
     </>
   );
 };
-
-// export const getServerSideProps: GetServerSideProps = async () => {
-//   try {
-//     const ranking: DailyRankingType[] = await getDailyRanking();
-//     return {
-//       props: { ranking: ranking?.slice(0, 10) || [] },
-//     };
-//   } catch (e) {
-//     return {
-//       props: { ranking: [] },
-//     };
-//   }
-// };
 
 export const getStaticProps: GetStaticProps = async () => {
   try {
