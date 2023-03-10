@@ -9,12 +9,21 @@
     "lint": "next lint",
     "storybook": "start-storybook -p 6006 -s ./public",
     "build-storybook": "build-storybook -s public",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "lint-front": "lint-staged"
+  },
+  "lint-staged": {
+    "*.{ts,tsx}": [
+      "eslint --fix",
+      "prettier --config ./.prettierrc --write -u"
+    ]
   },
   "dependencies": {
     "@babel/runtime": "^7.18.9",
     "@emotion/react": "^11.10.0",
     "@emotion/styled": "^11.10.0",
+    "ansi-styles": "^6.2.1",
+    "chalk": "^5.2.0",
     "musinsa": "^1.0.26",
     "next": "12.2.3",
     "react": "18.2.0",
