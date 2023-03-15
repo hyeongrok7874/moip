@@ -9589,7 +9589,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["cacheable-request", "npm:6.1.0"],\
             ["clone-response", "npm:1.0.3"],\
             ["get-stream", "npm:5.2.0"],\
-            ["http-cache-semantics", "npm:4.1.0"],\
+            ["http-cache-semantics", "npm:4.1.1"],\
             ["keyv", "npm:3.1.0"],\
             ["lowercase-keys", "npm:2.0.0"],\
             ["normalize-url", "npm:4.5.1"],\
@@ -9603,7 +9603,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["cacheable-request", "npm:7.0.2"],\
             ["clone-response", "npm:1.0.3"],\
             ["get-stream", "npm:5.2.0"],\
-            ["http-cache-semantics", "npm:4.1.0"],\
+            ["http-cache-semantics", "npm:4.1.1"],\
             ["keyv", "npm:4.3.3"],\
             ["lowercase-keys", "npm:2.0.0"],\
             ["normalize-url", "npm:6.1.0"],\
@@ -10582,7 +10582,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["camelcase", "npm:5.3.1"],\
             ["cssesc", "npm:3.0.0"],\
             ["icss-utils", "npm:4.1.1"],\
-            ["loader-utils", "npm:1.4.0"],\
+            ["loader-utils", "npm:1.4.2"],\
             ["normalize-path", "npm:3.0.0"],\
             ["postcss", "npm:7.0.39"],\
             ["postcss-modules-extract-imports", "npm:2.0.0"],\
@@ -13573,7 +13573,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/tapable", "npm:1.0.8"],\
             ["@types/webpack", "npm:4.41.32"],\
             ["html-minifier-terser", "npm:5.1.1"],\
-            ["loader-utils", "npm:1.4.0"],\
+            ["loader-utils", "npm:1.4.2"],\
             ["lodash", "npm:4.17.21"],\
             ["pretty-error", "npm:2.1.2"],\
             ["tapable", "npm:1.1.3"],\
@@ -13612,10 +13612,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["http-cache-semantics", [\
-        ["npm:4.1.0", {\
-          "packageLocation": "./.yarn/cache/http-cache-semantics-npm-4.1.0-860520a31f-974de94a81.zip/node_modules/http-cache-semantics/",\
+        ["npm:4.1.1", {\
+          "packageLocation": "./.yarn/cache/http-cache-semantics-npm-4.1.1-1120131375-83ac0bc60b.zip/node_modules/http-cache-semantics/",\
           "packageDependencies": [\
-            ["http-cache-semantics", "npm:4.1.0"]\
+            ["http-cache-semantics", "npm:4.1.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -14901,10 +14901,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["json5", [\
-        ["npm:1.0.1", {\
-          "packageLocation": "./.yarn/cache/json5-npm-1.0.1-647fc8794b-e76ea23dbb.zip/node_modules/json5/",\
+        ["npm:1.0.2", {\
+          "packageLocation": "./.yarn/cache/json5-npm-1.0.2-9607f93e30-866458a8c5.zip/node_modules/json5/",\
           "packageDependencies": [\
-            ["json5", "npm:1.0.1"],\
+            ["json5", "npm:1.0.2"],\
             ["minimist", "npm:1.2.6"]\
           ],\
           "linkType": "HARD"\
@@ -15184,13 +15184,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["loader-utils", [\
-        ["npm:1.4.0", {\
-          "packageLocation": "./.yarn/cache/loader-utils-npm-1.4.0-a56254a277-d150b15e7a.zip/node_modules/loader-utils/",\
+        ["npm:1.4.2", {\
+          "packageLocation": "./.yarn/cache/loader-utils-npm-1.4.2-b4537b2f88-eb6fb622ef.zip/node_modules/loader-utils/",\
           "packageDependencies": [\
-            ["loader-utils", "npm:1.4.0"],\
+            ["loader-utils", "npm:1.4.2"],\
             ["big.js", "npm:5.2.2"],\
             ["emojis-list", "npm:3.0.0"],\
-            ["json5", "npm:1.0.1"]\
+            ["json5", "npm:1.0.2"]\
           ],\
           "linkType": "HARD"\
         }],\
@@ -15400,7 +15400,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["make-fetch-happen", "npm:10.2.0"],\
             ["agentkeepalive", "npm:4.2.1"],\
             ["cacache", "npm:16.1.1"],\
-            ["http-cache-semantics", "npm:4.1.0"],\
+            ["http-cache-semantics", "npm:4.1.1"],\
             ["http-proxy-agent", "npm:5.0.0"],\
             ["https-proxy-agent", "npm:5.0.1"],\
             ["is-lambda", "npm:1.0.1"],\
@@ -20045,7 +20045,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["tsconfig-paths", "npm:3.14.1"],\
             ["@types/json5", "npm:0.0.29"],\
-            ["json5", "npm:1.0.1"],\
+            ["json5", "npm:1.0.2"],\
             ["minimist", "npm:1.2.6"],\
             ["strip-bom", "npm:3.0.0"]\
           ],\
