@@ -11058,7 +11058,7 @@ __metadata:
     husky: ^8.0.0
     lint-staged: ^13.1.2
     musinsa: ^1.0.26
-    next: ^13.2.4
+    next: 13.2.4
     prettier: ^2.7.1
     react: 18.2.0
     react-dom: 18.2.0
@@ -11164,7 +11164,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"next@npm:^13.2.4":
+"next@npm:13.2.4":
   version: 13.2.4
   resolution: "next@npm:13.2.4"
   dependencies:
