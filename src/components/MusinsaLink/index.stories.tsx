@@ -8,6 +8,9 @@ export default {
   component: MusinsaLink,
   parameters: {
     layout: "padded",
+    backgrounds: {
+      default: "black",
+    },
   },
 } as ComponentMeta<typeof MusinsaLink>;
 
