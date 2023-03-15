@@ -15,7 +15,7 @@ const Goods: React.FC<PropsType> = ({
 }) => {
   return (
     <S.Goods href={link}>
-      <S.GoodsContent>
+      <S.GoodsContent className="goods-content">
         <S.Ranking>{rank}위</S.Ranking>
         <Image
           src={img || ""}
@@ -30,7 +30,7 @@ const Goods: React.FC<PropsType> = ({
         <S.Name>{name}</S.Name>
         <S.Price>{price}</S.Price>
       </S.GoodsContent>
-      <S.GoToBuy>구매하러 가기</S.GoToBuy>
+      <S.GoToBuy className="go-to-buy">구매하러 가기</S.GoToBuy>
     </S.Goods>
   );
 };

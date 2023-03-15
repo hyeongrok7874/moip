@@ -1,4 +1,39 @@
+import { keyframes } from "@emotion/react";
 import styled from "@emotion/styled";
+
+export const Goods = styled.a`
+  width: 196px;
+  display: block;
+  position: relative;
+  animation: unhover 0.2s;
+  &:hover .go-to-buy {
+    display: block;
+  }
+  &:hover .goods-content {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  :hover {
+    animation: hover 0.2s;
+    top: -30px;
+  }
+  @keyframes hover {
+    0% {
+      top: 0;
+    }
+    100% {
+      top: -30px;
+    }
+  }
+  @keyframes unhover {
+    0% {
+      top: -30px;
+    }
+    100% {
+      top: 0;
+    }
+  }
+`;
 
 export const GoToBuy = styled.div`
   width: 196px;
@@ -28,40 +63,10 @@ export const GoodsContent = styled.div`
   position: relative;
 `;
 
-export const Goods = styled.a`
-  width: 196px;
-  display: block;
+export const ImageFrame = styled.div`
+  width: 164px;
+  height: 196px;
   position: relative;
-  animation: unhover 0.2s;
-  :hover ${GoToBuy} {
-    display: block;
-  }
-  :hover ${GoodsContent} {
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
-  }
-  :hover {
-    animation: hover 0.2s;
-    top: -30px;
-  }
-
-  @keyframes hover {
-    0% {
-      top: 0;
-    }
-    100% {
-      top: -30px;
-    }
-  }
-
-  @keyframes unhover {
-    0% {
-      top: -30px;
-    }
-    100% {
-      top: 0;
-    }
-  }
 `;
 
 export const Ranking = styled.p`
