@@ -1,11 +1,15 @@
 import { DailyRankingType, getDailyRanking } from "musinsa";
 import { NextApiRequest, NextApiResponse } from "next";
+import { ResponseError } from "types/api";
 
 export default async function handler(
   req: NextApiRequest,
-  res: NextApiResponse<DailyRankingType[]>,
+  res: NextApiResponse<DailyRankingType[] | ResponseError>,
 ) {
-  // TODO: req에서 개수 받아와 slice
-  const ranking = await getDailyRanking();
-  return res.status(200).json(ranking);
+  try {
+    const ranking = await getDailyRanking();
+    return res.status(200).json(ranking?.slice(0, 10));
+  } catch {
+    return res.status(500).json({ message: "failed to load data" });
+  }
 }
