@@ -5,12 +5,20 @@ import { rankingKey } from "./queryKeys";
 import { DailyRankingType } from "musinsa";
 
 async function getRanking(url: string) {
-  const { data } = await axios.get(rankingUrl.getDailyRanking);
-  return data;
+  try {
+    const { data } = await axios.get(url);
+    return data;
+  } catch (e) {
+    return e;
+  }
 }
 
-export default function useDailyRanking() {
-  return useQuery<DailyRankingType[]>(rankingKey.daily, () =>
-    getRanking(rankingUrl.getDailyRanking),
+export default function useDailyRanking(initialData?: DailyRankingType[]) {
+  return useQuery<DailyRankingType[]>(
+    rankingKey.daily,
+    () => getRanking(rankingUrl.getDailyRanking),
+    {
+      initialData,
+    },
   );
 }
