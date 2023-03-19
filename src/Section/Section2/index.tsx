@@ -3,6 +3,7 @@ import React from "react";
 import * as S from "./style";
 import { css, keyframes } from "@emotion/react";
 import { DailyRankingType } from "musinsa";
+import useDailyRanking from "apis/ranking";
 
 interface RankingType {
   ranking: DailyRankingType[];
@@ -45,6 +46,8 @@ const downToUp = keyframes`
 `;
 
 const Section2: React.FC<RankingType> = ({ ranking }) => {
+  const { data } = useDailyRanking(ranking);
+
   return (
     <S.Section2 id="section2">
       <S.Section2Wrap>
