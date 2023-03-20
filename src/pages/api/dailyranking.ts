@@ -1,10 +1,10 @@
-import { DailyRankingType, getDailyRanking } from "musinsa";
+import { RankingType, getDailyRanking } from "musinsa";
 import { NextApiRequest, NextApiResponse } from "next";
 import { ResponseError } from "types/api";
 
 export default async function handler(
   req: NextApiRequest,
-  res: NextApiResponse<DailyRankingType[] | ResponseError>,
+  res: NextApiResponse<RankingType[] | ResponseError>,
 ) {
   try {
     const ranking = await getDailyRanking();

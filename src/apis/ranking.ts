@@ -2,7 +2,7 @@ import axios from "axios";
 import { useQuery } from "@tanstack/react-query";
 import { rankingUrl } from "libs/apiUrlController";
 import { rankingKey } from "./queryKeys";
-import { DailyRankingType } from "musinsa";
+import { RankingType } from "musinsa";
 
 async function getRanking(url: string) {
   try {
@@ -13,8 +13,8 @@ async function getRanking(url: string) {
   }
 }
 
-export default function useDailyRanking(initialData?: DailyRankingType[]) {
-  return useQuery<DailyRankingType[]>(
+export default function useDailyRanking(initialData?: RankingType[]) {
+  return useQuery<RankingType[]>(
     rankingKey.daily,
     () => getRanking(rankingUrl.getDailyRanking),
     {

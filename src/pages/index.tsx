@@ -2,10 +2,10 @@ import React from "react";
 import { Section1, Section2 } from "Section";
 import { Footer } from "components";
 import type { GetStaticProps, NextPage } from "next";
-import { getDailyRanking, DailyRankingType } from "musinsa";
+import { getDailyRanking, RankingType } from "musinsa";
 
 interface PropsType {
-  ranking: DailyRankingType[];
+  ranking: RankingType[];
 }
 
 const Home: NextPage<PropsType> = ({ ranking }) => {
@@ -20,7 +20,7 @@ const Home: NextPage<PropsType> = ({ ranking }) => {
 
 export const getStaticProps: GetStaticProps = async () => {
   try {
-    const ranking: DailyRankingType[] = await getDailyRanking();
+    const ranking: RankingType[] = await getDailyRanking();
     return {
       props: { ranking: ranking?.slice(0, 10) || [] },
       revalidate: 60,
