@@ -1,3 +1,4 @@
+import { keyframes } from "@emotion/react";
 import styled from "@emotion/styled";
 
 export const Section2 = styled.div`
@@ -103,5 +104,41 @@ export const Point = styled.div`
     100% {
       transform: translateX(0);
     }
+  }
+`;
+
+export const leftToRight = keyframes`
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+`;
+
+export const rightToLeft = keyframes`
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+`;
+
+export const upToDown = keyframes`
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+`;
+
+export const downToUp = keyframes`
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0);
   }
 `;
