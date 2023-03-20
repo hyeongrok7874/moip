@@ -60,6 +60,7 @@ export const PeriodSelect = styled.button`
   color: rgba(0, 0, 0, 0.5);
   margin: 0px 12px;
   border: none;
+  background: none;
   cursor: pointer;
   :hover {
     color: rgba(0, 0, 0, 0.6);
