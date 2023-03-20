@@ -68,7 +68,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-storybook", "virtual:009ff0571cc0a298470ec4742f6bf376b863e95b1591bf306c8c086327bdf411b27d7fc601c39bd51644369c1a14a9e24ebe0ff0e281db7558529278b4f939dc#npm:0.6.1"],\
             ["husky", "npm:8.0.3"],\
             ["lint-staged", "npm:13.1.4"],\
-            ["musinsa", "npm:2.0.0"],\
+            ["musinsa", "npm:2.0.1"],\
             ["next", "virtual:009ff0571cc0a298470ec4742f6bf376b863e95b1591bf306c8c086327bdf411b27d7fc601c39bd51644369c1a14a9e24ebe0ff0e281db7558529278b4f939dc#npm:13.2.4"],\
             ["prettier", "npm:2.8.4"],\
             ["react", "npm:18.2.0"],\
@@ -16416,7 +16416,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-storybook", "virtual:009ff0571cc0a298470ec4742f6bf376b863e95b1591bf306c8c086327bdf411b27d7fc601c39bd51644369c1a14a9e24ebe0ff0e281db7558529278b4f939dc#npm:0.6.1"],\
             ["husky", "npm:8.0.3"],\
             ["lint-staged", "npm:13.1.4"],\
-            ["musinsa", "npm:2.0.0"],\
+            ["musinsa", "npm:2.0.1"],\
             ["next", "virtual:009ff0571cc0a298470ec4742f6bf376b863e95b1591bf306c8c086327bdf411b27d7fc601c39bd51644369c1a14a9e24ebe0ff0e281db7558529278b4f939dc#npm:13.2.4"],\
             ["prettier", "npm:2.8.4"],\
             ["react", "npm:18.2.0"],\
@@ -16461,10 +16461,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["musinsa", [\
-        ["npm:2.0.0", {\
-          "packageLocation": "./.yarn/cache/musinsa-npm-2.0.0-3633206479-2103225d8a.zip/node_modules/musinsa/",\
+        ["npm:2.0.1", {\
+          "packageLocation": "./.yarn/cache/musinsa-npm-2.0.1-8632ee9662-5e1d2f5cf9.zip/node_modules/musinsa/",\
           "packageDependencies": [\
-            ["musinsa", "npm:2.0.0"],\
+            ["musinsa", "npm:2.0.1"],\
             ["axios", "npm:1.2.3"],\
             ["cheerio", "npm:1.0.0-rc.12"]\
           ],\

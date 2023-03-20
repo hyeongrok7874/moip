@@ -11384,7 +11384,7 @@ __metadata:
     eslint-plugin-storybook: ^0.6.1
     husky: ^8.0.0
     lint-staged: ^13.1.2
-    musinsa: ^2.0.0
+    musinsa: ^2.0.1
     next: 13.2.4
     prettier: ^2.8.4
     react: 18.2.0
@@ -11425,13 +11425,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"musinsa@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "musinsa@npm:2.0.0"
+"musinsa@npm:^2.0.1":
+  version: 2.0.1
+  resolution: "musinsa@npm:2.0.1"
   dependencies:
     axios: ^1.2.2
     cheerio: ^1.0.0-rc.12
-  checksum: 2103225d8abe4422e8b80e70d292ab105954ac7be23309b75077af04c6b0d3948c483e07610cddcf07aedb5d8fc6ee525efdd76de8ce0158e8ae06e602aed25e
+  checksum: 5e1d2f5cf938b421f95e144f7afd2cf04e42348fcf47abe655c2f0fb443bb1546eeb3c1fd032cfbf1dbd6a5767677e38a1fcd1f73378a0a097ba404b8024f48c
   languageName: node
   linkType: hard
 
