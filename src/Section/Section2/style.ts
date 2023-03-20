@@ -5,10 +5,12 @@ export const Section2 = styled.div`
   background: url("images/mainBackground.png") no-repeat center;
   background-size: cover;
   position: relative;
+  display: flex;
+  justify-content: center;
 `;
 
 export const Section2Wrap = styled.div`
-  width: 100%;
+  width: 1044px;
   height: 900px;
   display: flex;
   flex-direction: column;
@@ -23,6 +25,7 @@ export const TitleWrap = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
 `;
 
 export const Section2Title = styled.p`
@@ -31,10 +34,35 @@ export const Section2Title = styled.p`
   color: #408be1;
 `;
 
+export const Section2SubTitleWrap = styled.div`
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+`;
+
 export const Section2desc = styled.p`
   font-weight: 500;
   font-size: 20px;
   color: #43434a;
+`;
+
+export const PeriodSelectWrap = styled.div`
+  position: absolute;
+  left: 0;
+`;
+
+export const PeriodSelect = styled.button`
+  font-weight: 500;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.5);
+  margin: 0px 12px;
+  border: none;
+  cursor: pointer;
+  :hover {
+    color: rgba(0, 0, 0, 0.6);
+  }
 `;
 
 export const GoodsWrapper = styled.div`
