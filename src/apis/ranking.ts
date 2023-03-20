@@ -13,7 +13,17 @@ async function getRanking(url: string) {
   }
 }
 
-export default function useDailyRanking(initialData?: RankingType[]) {
+export function useNowRanking(initialData?: RankingType[]) {
+  return useQuery<RankingType[]>(
+    rankingKey.now,
+    () => getRanking(rankingUrl.getNowRanking),
+    {
+      initialData,
+    },
+  );
+}
+
+export function useDailyRanking(initialData?: RankingType[]) {
   return useQuery<RankingType[]>(
     rankingKey.daily,
     () => getRanking(rankingUrl.getDailyRanking),
