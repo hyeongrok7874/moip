@@ -23,12 +23,12 @@ export const getStaticProps: GetStaticProps = async () => {
     const ranking: RankingType[] = await getNowRanking();
     return {
       props: { ranking: ranking?.slice(0, 10) || [] },
-      revalidate: 60,
+      revalidate: 10,
     };
   } catch (e) {
     return {
       props: { ranking: [] },
-      revalidate: 60,
+      revalidate: 10,
     };
   }
 };
