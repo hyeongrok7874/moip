@@ -1,12 +1,12 @@
 import React from "react";
 import * as S from "./style";
 import Image from "next/image";
-import { DailyRankingType } from "musinsa";
+import { RankingType } from "musinsa";
 import { css } from "@emotion/react";
 
 interface PropsType {
   rank: number;
-  data: DailyRankingType;
+  data: RankingType;
 }
 
 const Goods: React.FC<PropsType> = ({
