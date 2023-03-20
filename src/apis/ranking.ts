@@ -32,3 +32,23 @@ export function useDailyRanking(initialData?: RankingType[]) {
     },
   );
 }
+
+export function useWeeklyRanking(initialData?: RankingType[]) {
+  return useQuery<RankingType[]>(
+    rankingKey.weekly,
+    () => getRanking(rankingUrl.getWeeklyRanking),
+    {
+      initialData,
+    },
+  );
+}
+
+export function useMonthlyRanking(initialData?: RankingType[]) {
+  return useQuery<RankingType[]>(
+    rankingKey.monthly,
+    () => getRanking(rankingUrl.getMonthlyRanking),
+    {
+      initialData,
+    },
+  );
+}
