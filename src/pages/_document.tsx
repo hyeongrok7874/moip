@@ -28,6 +28,10 @@ class MyDocument extends Document {
             content="무신사의 일간 랭킹을 가져와 MZ세대의 패션 동향을 파악할 수 있습니다."
           />
           <meta name="keyword" content="moip, 모입, musinsa, 무신사" />
+          <meta property="og:title" content="moip - 오늘 모 입지?" />
+          <meta property="og:type" content="website" />
+          <meta property="og:url" content="https://www.moip.shop" />
+          <meta property="og:image" content="/images/background.png" />
         </Head>
         <body>
           <Main />
