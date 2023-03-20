@@ -3,7 +3,12 @@ import React, { useEffect, useState } from "react";
 import * as S from "./style";
 import { css } from "@emotion/react";
 import { RankingType } from "musinsa";
-import useDailyRanking from "apis/ranking";
+import {
+  useDailyRanking,
+  useMonthlyRanking,
+  useNowRanking,
+  useWeeklyRanking,
+} from "apis/ranking";
 
 interface PropsType {
   rankingProp: RankingType[] | [];
@@ -15,12 +20,25 @@ const periodList: PeriodType[] = ["실시간", "일간", "주간", "월간"];
 
 const Section2: React.FC<PropsType> = ({ rankingProp }) => {
   const [ranking, setRanking] = useState<RankingType[]>(rankingProp);
+  const { data: nowRanking } = useNowRanking();
   const { data: dailyRanking } = useDailyRanking(ranking);
+  const { data: weeklyRanking } = useWeeklyRanking();
+  const { data: monthlyRanking } = useMonthlyRanking();
 
   const [selectedPeriod, setSelectedPeriod] = useState<PeriodType>("실시간");
 
-  // TODO : selectedPeriod에 맞게끔 ranking 업데이트
-  // useEffect(() => {}, [selectedPeriod]);
+  useEffect(() => {
+    switch (selectedPeriod) {
+      case "실시간":
+        return nowRanking && setRanking(nowRanking);
+      case "일간":
+        return dailyRanking && setRanking(dailyRanking);
+      case "주간":
+        return weeklyRanking && setRanking(weeklyRanking);
+      case "월간":
+        return monthlyRanking && setRanking(monthlyRanking);
+    }
+  }, [selectedPeriod]);
 
   const selectedStyle = (period: PeriodType) =>
     selectedPeriod === period &&
