@@ -1,12 +1,12 @@
 import Goods from "components/Goods";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import * as S from "./style";
 import { css, keyframes } from "@emotion/react";
-import { DailyRankingType } from "musinsa";
+import { RankingType } from "musinsa";
 import useDailyRanking from "apis/ranking";
 
-interface RankingType {
-  ranking: DailyRankingType[];
+interface PropsType {
+  rankingProp: RankingType[] | [];
 }
 
 const leftToRight = keyframes`
@@ -45,15 +45,42 @@ const downToUp = keyframes`
   }
 `;
 
-const Section2: React.FC<RankingType> = ({ ranking }) => {
-  const { data } = useDailyRanking(ranking);
+type PeriodType = "실시간" | "일간" | "주간" | "월간";
+
+const periodList: PeriodType[] = ["실시간", "일간", "주간", "월간"];
+
+const Section2: React.FC<PropsType> = ({ rankingProp }) => {
+  const [ranking, setRanking] = useState<RankingType[]>(rankingProp);
+  const { data: dailyRanking } = useDailyRanking(ranking);
+
+  const [selectedPeriod, setSelectedPeriod] = useState<PeriodType>("실시간");
+
+  // TODO : selectedPeriod에 맞게끔 ranking 업데이트
+  // useEffect(() => {}, [selectedPeriod]);
+
+  const selectedStyle = (period: PeriodType) =>
+    selectedPeriod === period &&
+    css`
+      color: #000000;
+    `;
 
   return (
     <S.Section2 id="section2">
       <S.Section2Wrap>
         <S.TitleWrap>
           <S.Section2Title>#TOP10</S.Section2Title>
-          <S.Section2desc>무신사 일간 랭킹.</S.Section2desc>
+          <S.Section2SubTitleWrap>
+            <S.PeriodSelectWrap>
+              {periodList.map((period, index) => (
+                <S.PeriodSelect
+                  css={selectedStyle(period)}
+                  onClick={() => setSelectedPeriod(period)}
+                  key={index}
+                >{`${period} 랭킹`}</S.PeriodSelect>
+              ))}
+            </S.PeriodSelectWrap>
+            <S.Section2desc>{`무신사 ${selectedPeriod} 랭킹.`}</S.Section2desc>
+          </S.Section2SubTitleWrap>
         </S.TitleWrap>
         <S.GoodsWrapper>
           {ranking?.map((data, index) => (
