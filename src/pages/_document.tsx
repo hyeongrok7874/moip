@@ -35,6 +35,10 @@ class MyDocument extends Document {
             property="og:image"
             content="https://www.moip.shop/images/ogImage.png"
           />
+          <meta
+            property="og:description"
+            content="무신사의 일간 랭킹을 가져와 MZ세대의 패션 동향을 파악할 수 있습니다."
+          />
         </Head>
         <body>
           <Main />
