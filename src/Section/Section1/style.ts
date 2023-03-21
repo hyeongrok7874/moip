@@ -56,9 +56,7 @@ export const TitleHighlight = styled.div`
 `;
 
 export const MoveToMainBox = styled.button`
-  width: 235px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
   cursor: pointer;
   background: inherit;
@@ -69,6 +67,7 @@ export const MoveToMainText = styled.span`
   font-weight: 500;
   font-size: 20px;
   color: #ffffff;
+  margin-right: 6px;
 `;
 
 export const MoveToMainHighlight = styled.span`
