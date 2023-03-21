@@ -31,7 +31,7 @@ class MyDocument extends Document {
           <meta property="og:title" content="moip - 오늘 모 입지?" />
           <meta property="og:type" content="website" />
           <meta property="og:url" content="https://www.moip.shop" />
-          <meta property="og:image" content="/images/background.png" />
+          <meta property="og:image" content="/images/ogFavicon.ico" />
         </Head>
         <body>
           <Main />
