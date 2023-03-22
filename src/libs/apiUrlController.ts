@@ -1,6 +1,6 @@
 export const rankingUrl = {
-  getNowRanking: `/api/nowranking`,
-  getDailyRanking: `/api/dailyranking`,
-  getWeeklyRanking: `/api/weeklyranking`,
-  getMonthlyRanking: `/api/monthlyranking`,
+  getNowRanking: `/api/ranking/now`,
+  getDailyRanking: `/api/ranking/daily`,
+  getWeeklyRanking: `/api/ranking/weekly`,
+  getMonthlyRanking: `/api/ranking/monthly`,
 };
