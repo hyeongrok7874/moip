@@ -1,0 +1,27 @@
+name: moip-ci
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Run to build
+        uses: actions/setup-node@master
+        with:
+          node-version: '16'  
+
+      - name: Install dependencies
+        run: yarn install
+
+      - name: Linting
+        run: yarn lint
+
+      - name: Building
+        run: yarn build
