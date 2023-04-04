@@ -1,4 +1,4 @@
-name: ci-cd
+name: moip-cd
 
 on:
   push:
@@ -19,4 +19,4 @@ jobs:
           username: ${{secrets.EC2_USER}}
           key: ${{secrets.EC2_PEM}}
           script: |
-            sh /home/ubuntu/moip-ci-cd.sh
+            sh /home/ubuntu/moip-cd.sh
