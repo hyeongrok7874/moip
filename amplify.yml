@@ -1,0 +1,20 @@
+version: 1
+frontend:
+  phases:
+    preBuild:
+      commands:
+        - yarn install
+    build:
+      commands:
+        - yarn build
+    setting-for-start:
+      commands:
+        - mv .next/standalone/Projects/moip/* .next/standalone/Projects/moip/.??* .next/standalone
+        - rm -rf .next/standalone/Projects
+  artifacts:
+    baseDirectory: .next/
+    files:
+      - "**/*"
+  cache:
+    paths:
+      - .yarn
