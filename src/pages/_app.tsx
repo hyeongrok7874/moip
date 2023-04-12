@@ -12,7 +12,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <QueryClientProvider client={client}>
       <Head>
-        <title>moip - 오늘 모 입지?</title>
+        <title>moip - 오늘 뭐 입지?</title>
       </Head>
       <Component {...pageProps} />
       <GlobalStyle />
