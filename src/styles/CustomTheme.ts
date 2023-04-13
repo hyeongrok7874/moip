@@ -1,6 +1,8 @@
 const CustomTheme = {
   breakPoint: {
-    desktop: "1044px",
+    desktop: "1100px",
+    tablet: "650px",
+    mobile: "410px",
   },
 };
 
