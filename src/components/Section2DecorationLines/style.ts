@@ -4,6 +4,7 @@ import styled from "@emotion/styled";
 const DecorationLine = styled.div`
   position: absolute;
   border: 0.5px solid #000000;
+  z-index: 0;
 `;
 
 export const WidthDecorationLine = styled(DecorationLine)`
@@ -22,7 +23,7 @@ export const Point = styled.div`
   left: 84%;
   background: #000000;
   position: absolute;
-  z-index: 10;
+  z-index: 0;
   animation: leftToRight 1s ease-in-out;
   @keyframes leftToRight {
     0% {
