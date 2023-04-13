@@ -6,9 +6,6 @@ export const Section2 = styled.div`
   position: relative;
   display: flex;
   justify-content: center;
-  @media (min-width: ${({ theme }) => theme.breakPoint.desktop}) {
-    height: 1350px;
-  }
 `;
 
 export const Section2Wrap = styled.div`
@@ -17,7 +14,7 @@ export const Section2Wrap = styled.div`
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  margin-top: 175px;
+  margin-top: 160px;
   margin-bottom: 276px;
   z-index: 5;
   @media (max-width: ${({ theme }) => theme.breakPoint.desktop}) {
@@ -30,6 +27,7 @@ export const TitleWrap = styled.div`
   flex-direction: column;
   align-items: center;
   width: 100%;
+  margin-bottom: 40px;
 `;
 
 export const Section2Title = styled.p`
@@ -80,6 +78,9 @@ export const PeriodSelect = styled.button`
   :hover {
     color: #000000;
   }
+  @media (max-width: ${({ theme }) => theme.breakPoint.tablet}) {
+    margin: 0px 6px;
+  }
 `;
 
 export const GoodsWrapper = styled.div`
@@ -91,6 +92,16 @@ export const GoodsWrapper = styled.div`
   @media (max-width: ${({ theme }) => theme.breakPoint.desktop}) {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 354px);
+    grid-row-gap: 3rem;
+  }
+  @media (max-width: ${({ theme }) => theme.breakPoint.tablet}) {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 354px);
+    grid-row-gap: 3rem;
+  }
+  @media (max-width: ${({ theme }) => theme.breakPoint.mobile}) {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(10, 354px);
     grid-row-gap: 3rem;
   }
 `;
