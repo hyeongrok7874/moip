@@ -8,4 +8,8 @@ export const Link = styled.a`
   position: absolute;
   left: 20px;
   top: 20px;
+  @media (max-width: ${({ theme }) => theme.breakPoint.mobile}) {
+    left: 50%;
+    transform: translateX(-50%);
+  }
 `;
