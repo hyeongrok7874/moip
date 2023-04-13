@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "preinstall": "npx only-allow pnpm",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -68,10 +69,7 @@
     "webpack-merge": "^5.8.0"
   },
   "resolutions": {
-    "webpack": "5",
-    "@storybook/core-common/webpack": "^5",
-    "@storybook/core-server/webpack": "^5",
-    "@storybook/react/webpack": "^5"
+    "webpack": "5"
   },
-  "packageManager": "yarn@3.2.2"
+  "packageManager": "pnpm@8.2.0"
 }
