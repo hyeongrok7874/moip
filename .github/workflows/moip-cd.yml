@@ -7,8 +7,10 @@ on:
       - completed
 
 jobs:
-  build:
+  on-success:
     runs-on: ubuntu-latest
+
+    if: ${{github.event.workflow_run.conclusion == 'success'}}
 
     steps:
       - uses: actions/checkout@v3
@@ -21,3 +23,13 @@ jobs:
           key: ${{secrets.EC2_PEM}}
           script: |
             sh /home/ubuntu/moip-cd.sh
+
+      - run: echo "CD Success"
+
+  on-failure:
+    runs-on: ubuntu-latest
+
+    if: ${{github.event.workflow_run.conclusion == 'failure'}}
+
+    steps:
+      - run: echo "CI workflow was a failure"
