@@ -1,17 +1,11 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import * as S from "./style";
 import { Pointer } from "Assets/svg";
 import { MusinsaLink } from "components";
+import { useWidth } from "hooks";
 
 const Section1 = () => {
-  const [width, setWidth] = useState<number>(0);
-
-  useEffect(() => {
-    setWidth(window.innerWidth);
-    window.onresize = () => {
-      setWidth(window.innerWidth);
-    };
-  }, []);
+  const width = useWidth();
 
   const scrollToSection2 = () => {
     window.scrollTo({ left: 0, top: width * 0.56, behavior: "smooth" });

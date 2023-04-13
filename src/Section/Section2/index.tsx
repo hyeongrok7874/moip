@@ -10,6 +10,7 @@ import {
   useWeeklyRanking,
 } from "apis/ranking";
 import { Section2DecorationLines } from "components";
+import { useWidth } from "hooks";
 
 interface PropsType {
   rankingProp: RankingType[] | [];
@@ -25,21 +26,13 @@ const Section2: React.FC<PropsType> = ({ rankingProp }) => {
   const { data: dailyRanking } = useDailyRanking(ranking);
   const { data: weeklyRanking } = useWeeklyRanking();
   const { data: monthlyRanking } = useMonthlyRanking();
-  const [isPC, setIsPC] = useState<boolean>(true);
-  const [rankingMount, setRankingMount] = useState<number>(10);
-
+  const [rankingMount, setRankingMount] = useState<9 | 10>(10);
   const [selectedPeriod, setSelectedPeriod] = useState<PeriodType>("실시간");
+  const width = useWidth();
 
   useEffect(() => {
-    setIsPC(window.innerWidth > 1044);
-    window.onresize = () => {
-      setIsPC(window.innerWidth > 1044);
-    };
-  }, []);
-
-  useEffect(() => {
-    setRankingMount(isPC ? 10 : 9);
-  }, [isPC]);
+    setRankingMount(width > 650 && width < 1100 ? 9 : 10);
+  }, [width]);
 
   useEffect(() => {
     switch (selectedPeriod) {
@@ -86,7 +79,7 @@ const Section2: React.FC<PropsType> = ({ rankingProp }) => {
             ))}
         </S.GoodsWrapper>
       </S.Section2Wrap>
-      {isPC && <Section2DecorationLines />}
+      {width > 1100 && <Section2DecorationLines />}
     </S.Section2>
   );
 };
