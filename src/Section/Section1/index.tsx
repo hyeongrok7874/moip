@@ -8,7 +8,13 @@ const Section1 = () => {
   const width = useWidth();
 
   const scrollToSection2 = () => {
-    window.scrollTo({ left: 0, top: width * 0.56, behavior: "smooth" });
+    const height = window.innerHeight;
+
+    window.scrollTo({
+      left: 0,
+      top: width > 1100 ? width * 0.56 : height + 80,
+      behavior: "smooth",
+    });
   };
 
   return (
