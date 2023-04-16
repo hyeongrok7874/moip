@@ -9,7 +9,7 @@ export const Section1 = styled.div`
   position: relative;
   z-index: 5;
   @media (max-width: ${({ theme }) => theme.breakPoint.desktop}) {
-    height: 1000px;
+    height: 100vh;
   }
 `;
 
@@ -23,8 +23,7 @@ export const TitleBox = styled.div`
   top: 24vw;
   transform: translateY(-50%);
   @media (max-width: ${({ theme }) => theme.breakPoint.desktop}) {
-    top: 395px;
-    transform: none;
+    top: 50vh;
   }
 `;
 
