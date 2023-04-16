@@ -12,7 +12,7 @@ import {
 import { Section2DecorationLines } from "components";
 import { useWidth } from "hooks";
 
-interface PropsType {
+interface RankingProps {
   rankingProp: RankingType[] | [];
 }
 
@@ -20,7 +20,7 @@ type PeriodType = "실시간" | "일간" | "주간" | "월간";
 
 const periodList: PeriodType[] = ["실시간", "일간", "주간", "월간"];
 
-const Section2: React.FC<PropsType> = ({ rankingProp }) => {
+const Section2: React.FC<RankingProps> = ({ rankingProp }) => {
   const [ranking, setRanking] = useState<RankingType[]>(rankingProp);
   const { data: nowRanking } = useNowRanking();
   const { data: dailyRanking } = useDailyRanking(ranking);

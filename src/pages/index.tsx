@@ -4,11 +4,11 @@ import { Footer } from "components";
 import type { GetStaticProps, NextPage } from "next";
 import { getNowRanking, RankingType } from "musinsa";
 
-interface PropsType {
+interface RankingProps {
   ranking: RankingType[];
 }
 
-const Home: NextPage<PropsType> = ({ ranking }) => {
+const Home: NextPage<RankingProps> = ({ ranking }) => {
   return (
     <>
       <Section1 />
