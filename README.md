@@ -10,7 +10,7 @@ musinsa의 당일 일간 랭킹을 가져와 MZ세대의 패션 동향을 파악
 $ pnpm install
 ```
 
-## start
+## dev
 
 ```bash
 $ pnpm dev
