@@ -1,5 +1,5 @@
 import Goods from "components/Goods";
-import React, { useEffect, useState } from "react";
+import React, { useCallback, useEffect, useRef, useState } from "react";
 import * as S from "./style";
 import { css } from "@emotion/react";
 import { RankingType } from "musinsa";
@@ -22,12 +22,17 @@ const periodList: PeriodType[] = ["실시간", "일간", "주간", "월간"];
 
 const Section2: React.FC<RankingProps> = ({ rankingProp }) => {
   const [ranking, setRanking] = useState<RankingType[]>(rankingProp);
+  const [rankingMount, setRankingMount] = useState<9 | 10>(10);
+  const [selectedPeriod, setSelectedPeriod] = useState<PeriodType>("실시간");
+  const [isSection2Visible, setIsSection2Visible] = useState<boolean>(false);
+
   const { data: nowRanking } = useNowRanking();
   const { data: dailyRanking } = useDailyRanking(ranking);
   const { data: weeklyRanking } = useWeeklyRanking();
   const { data: monthlyRanking } = useMonthlyRanking();
-  const [rankingMount, setRankingMount] = useState<9 | 10>(10);
-  const [selectedPeriod, setSelectedPeriod] = useState<PeriodType>("실시간");
+
+  const section2Ref = useRef<HTMLDivElement>(null);
+
   const width = useWidth();
 
   useEffect(() => {
@@ -53,8 +58,34 @@ const Section2: React.FC<RankingProps> = ({ rankingProp }) => {
       color: #000000;
     `;
 
+  const section2Observer = async (
+    [entry]: IntersectionObserverEntry[],
+    observer: IntersectionObserver,
+  ) => {
+    if (entry.isIntersecting) {
+      observer.unobserve(entry.target);
+      setIsSection2Visible(true);
+    }
+  };
+
+  useEffect(() => {
+    if (!section2Ref.current || isSection2Visible || width > 1100) return;
+
+    const option = {
+      root: null,
+      rootMargin: "0px",
+      threshold: 0.5,
+    };
+
+    const observer = new IntersectionObserver(section2Observer, option);
+
+    section2Ref.current && observer.observe(section2Ref.current);
+
+    return () => observer && observer.disconnect();
+  }, []);
+
   return (
-    <S.Section2 id="section2">
+    <S.Section2 ref={section2Ref} id="section2">
       <S.Section2Wrap>
         <S.TitleWrap>
           <S.Section2Title>#TOP10</S.Section2Title>
@@ -79,7 +110,9 @@ const Section2: React.FC<RankingProps> = ({ rankingProp }) => {
             ))}
         </S.GoodsWrapper>
       </S.Section2Wrap>
-      {width > 1100 && <Section2DecorationLines />}
+      {width > 1100 && isSection2Visible && (
+        <Section2DecorationLines isSection2Visible={isSection2Visible} />
+      )}
     </S.Section2>
   );
 };
