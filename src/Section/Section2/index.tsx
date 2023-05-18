@@ -26,8 +26,8 @@ const Section2: React.FC<RankingProps> = ({ rankingProp }) => {
   const [selectedPeriod, setSelectedPeriod] = useState<PeriodType>("실시간");
   const [isSection2Visible, setIsSection2Visible] = useState<boolean>(false);
 
-  const { data: nowRanking } = useNowRanking();
-  const { data: dailyRanking } = useDailyRanking(ranking);
+  const { data: nowRanking } = useNowRanking(rankingProp);
+  const { data: dailyRanking } = useDailyRanking();
   const { data: weeklyRanking } = useWeeklyRanking();
   const { data: monthlyRanking } = useMonthlyRanking();
 

@@ -19,6 +19,7 @@ export function useNowRanking(initialData?: RankingType[]) {
     () => getRanking(rankingUrl.getNowRanking),
     {
       initialData,
+      staleTime: 3 * (60 * 1000),
     },
   );
 }
@@ -29,6 +30,8 @@ export function useDailyRanking(initialData?: RankingType[]) {
     () => getRanking(rankingUrl.getDailyRanking),
     {
       initialData,
+      cacheTime: Infinity,
+      staleTime: Infinity,
     },
   );
 }
@@ -39,6 +42,8 @@ export function useWeeklyRanking(initialData?: RankingType[]) {
     () => getRanking(rankingUrl.getWeeklyRanking),
     {
       initialData,
+      cacheTime: Infinity,
+      staleTime: Infinity,
     },
   );
 }
@@ -49,6 +54,8 @@ export function useMonthlyRanking(initialData?: RankingType[]) {
     () => getRanking(rankingUrl.getMonthlyRanking),
     {
       initialData,
+      cacheTime: Infinity,
+      staleTime: Infinity,
     },
   );
 }
