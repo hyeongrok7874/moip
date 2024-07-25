@@ -18,10 +18,11 @@ export const basic = Template.bind({});
 basic.args = {
   rank: 1,
   data: {
+    ranking: 1,
     img: "https://image.msscdn.net/images/goods_img/20220412/2482269/2482269_1_125.jpg",
     brand: "노스페이스",
     name: "NJ1DN75A 남성 1996 에코 눕시 자켓",
-    price: "339,000",
+    price: 339000,
     link: "https://www.musinsa.com/app/goods/2482269?loc=goods_rank",
   },
 };

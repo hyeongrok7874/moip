@@ -28,7 +28,7 @@ const Goods: React.FC<PropsType> = ({
         />
         <S.Brand>{brand}</S.Brand>
         <S.Name>{name}</S.Name>
-        <S.Price>{price}</S.Price>
+        <S.Price>{price.toLocaleString()}원</S.Price>
       </S.GoodsContent>
       <S.GoToBuy className="go-to-buy">구매하러 가기</S.GoToBuy>
     </S.Goods>

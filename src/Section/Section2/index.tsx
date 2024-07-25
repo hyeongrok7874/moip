@@ -1,5 +1,5 @@
 import Goods from "components/Goods";
-import React, { useCallback, useEffect, useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import * as S from "./style";
 import { css } from "@emotion/react";
 import { RankingType } from "musinsa";
